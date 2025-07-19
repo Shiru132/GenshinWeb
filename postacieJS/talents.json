@@ -2208,33 +2208,33 @@
       "normalAttack": {
         "name": "Origin",
         "description": "Normal Attack\nPerforms up to 5 consecutive spear strikes. Charged Attack\nConsumes a certain amount of Stamina to perform an upward slash. Plunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-        "icon": "/img/talents/raiden_shogun_attack.png"
+        "icon": "/img/talents/shogun_attack.png"
       },
       "elementalSkill": {
         "name": "Transcendence: Baleful Omen",
         "description": "The Raiden Shogun unveils a shard of her Euthymia, dealing Electro DMG to nearby opponents, and granting nearby party members the Eye of Stormy Judgment. Eye of Stormy Judgment\nWhen characters with this buff attack and deal DMG to opponents, the Eye will unleash a coordinated attack, dealing AoE Electro DMG at the opponent's position. Characters who gain the Eye of Stormy Judgment will have their Elemental Burst DMG increased based on the Energy Cost of the Elemental Burst during the Eye's duration.",
-        "icon": "/img/talents/raiden_shogun_skill.png"
+        "icon": "/img/talents/shogun_skill.png"
       },
       "elementalBurst": {
         "name": "Secret Art: Musou Shinsetsu",
         "description": "Gathering truths unnumbered and wishes uncounted, the Raiden Shogun unleashes the Musou no Hitotachi and deals AoE Electro DMG, using Musou Isshin in combat for a certain duration afterward. The DMG dealt by Musou no Hitotachi and Musou Isshin's attacks will be increased based on the number of Chakra Desiderata's Resolve stacks consumed when this skill is used. Musou Isshin\nWhile in this state, the Raiden Shogun will wield her tachi in battle, while her Normal, Charged, and Plunging Attacks will be infused with Electro DMG, which cannot be overridden.",
-        "icon": "/img/talents/raiden_shogun_burst.png"
+        "icon": "/img/talents/shogun_burst.png"
       },
       "passiveTalents": [
         {
           "name": "Wishes Unnumbered",
           "description": "When nearby party members gain Elemental Orbs or Particles, Chakra Desiderata gains 2 Resolve stacks. This effect can occur once every 3s.",
-          "icon": "/img/talents/raiden_shogun_passive1.png"
+          "icon": "/img/talents/shogun_passive1.png"
         },
         {
           "name": "Enlightened One",
           "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n0. 6% greater Energy restoration from Musou Isshin\n0. 4% Electro DMG Bonus.",
-          "icon": "/img/talents/raiden_shogun_passive2.png"
+          "icon": "/img/talents/shogun_passive2.png"
         },
         {
           "name": "All-Preserver",
           "description": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
-          "icon": "/img/talents/raiden_shogun_passive3.png"
+          "icon": "/img/talents/shogun_passive3.png"
         }
       ]
     }
