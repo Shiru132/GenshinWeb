@@ -568,8 +568,33 @@
       "description": "The wurm descending denotes the bond between sky and earth. This weapon increases CRIT Rate by 2.3% and ATK by 3.2% every 4s a Normal Attack hits. Max 7 stacks.",
       "link": "Bronie.html#PrimordialJadeWingedSpear"
     }
+  ],
+   "Mavuika": [
+    {
+      "name": "Thundering Pulse",
+      "image": "/img/bronieZdj/ThunderingPulse.png",
+      "description": "A bow that crackles with latent thunder. Its arrows hum like distant storms and strike with explosive force.",
+      "link": "Bronie.html#ThunderingPulse"
+    }
+  ],
+  "Xilonen": [
+    {
+      "name": "Song of Broken Pines",
+      "image": "/img/bronieZdj/SongOfBrokenPines.png",
+      "description": "A heavy claymore carved from ancient pines. Each swing echoes the mournful song of a forest lost to time.",
+      "link": "Bronie.html#SongOfBrokenPines"
+    }
+  ],
+  "Chasca": [
+    {
+      "name": "Oceanic Flute",
+      "image": "/img/bronieZdj/OceanicFlute.png",
+      "description": "A slender polearm crafted from sea‑worn ivory. It sings with every strike, like waves crashing on distant shores.",
+      "link": "Bronie.html#OceanicFlute"
+    }
   ]
 }
+
 
 
 
