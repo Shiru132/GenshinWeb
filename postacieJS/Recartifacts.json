@@ -1267,7 +1267,25 @@
       "describe": "Max Rarity: 5 | 2-piece: Hydro DMG +15%. | 4-piece: After using Elemental Skill, increases Normal and Charged Attack DMG by 30% for 15s."
     }
   ]
+},
+{
+  "name": "Clorinde",
+  "artifacts": [
+    {
+      "artifactName": "Fragment of Harmonic Whimsy",
+      "image": "/img/artefakty/FragmentOfHarmonicWhimsy.png",
+      "link": "artifacts.html#FragmentOfHarmonicWhimsy",
+      "describe": "Max Rarity: 4 | 2-piece: ATK +18%. | 4-piece: Grants a Harmonic Sigil when the equipping character triggers an Elemental Reaction; increases Elemental DMG by 12% for 10s. Can stack up to 3 times."
+    },
+    {
+      "artifactName": "Thundering Fury",
+      "image": "/img/artefakty/ThunderingFury.png",
+      "link": "artifacts.html#ThunderingFury",
+      "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Increases Overload, Electro‑Charged, and Superconduct DMG by 40%."
+    }
+  ]
 }
+
 
 ]}
 
