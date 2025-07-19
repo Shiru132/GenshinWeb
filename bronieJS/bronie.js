@@ -109,7 +109,7 @@ function applyFilters() {
 }
 
 function showByRarity(e) {
-    // (zostawione tylko dla kompatybilności, nie ma wywołań)
+  
     const wanted = e.currentTarget.id === 'four' ? '4star' : '5star';
     document.querySelectorAll('ul.weapons-list li.weapon-li')
         .forEach(li => {
@@ -125,7 +125,7 @@ function initSearch(onFilter) {
     input.addEventListener('input', debounce(() => {
         const q = input.value.trim().toLowerCase();
         onFilter(q);
-        applyFilters();  // łączy wyszukiwanie z gwiazdkami + typem
+        applyFilters();  
     }, 150));
 }
 

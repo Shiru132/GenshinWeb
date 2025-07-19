@@ -1,12 +1,12 @@
 // Pobieranie danych z pliku JSON
 let characters = [];
 
-// Elementy DOM
+
 const characterGallery = document.getElementById("gallery");
 const filter           = document.querySelector(".filter-select");
 const searchInput      = document.querySelector(".search-input");
 
-// Funkcja renderująca galerie
+
 function renderGallery(list) {
   characterGallery.innerHTML = "";
   list.forEach((char, idx) => {
@@ -96,12 +96,12 @@ function fullFilter() {
     toShow = toShow.filter(li => li.id === value);
   }
 
-  // nadaj delay
+  
   toShow.forEach((li, idx) => {
     li.style.setProperty('--delay', `${idx * 30}ms`);
   });
 
-  // falowe pokazanie
+  
   requestAnimationFrame(() => {
     toShow.forEach(li => {
       li.classList.remove('hidden');
@@ -109,7 +109,7 @@ function fullFilter() {
     });
   });
 
-  // brak wyników
+ 
   const msg = characterGallery.querySelector('.NoSearchingResult');
   if (!toShow.length) {
     if (!msg) {
