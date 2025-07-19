@@ -265,7 +265,7 @@ function renderMainPic(mainName){
 
     placeMainName.textContent = currentCharacter;
     
-    mainImg.src = `img/zdj/${mainName}.png`;
+    mainImg.src = `/img/zdj/${mainName}.png`;
     mainImg.alt = `${mainName} portret`
     mainImg.classList.add("character-image");
 
