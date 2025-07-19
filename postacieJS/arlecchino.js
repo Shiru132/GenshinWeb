@@ -193,7 +193,7 @@ fetch('/postacieJS/talents.json')
     return resp.json();
   })
   .then(data => {
-    const charData = data.talents.find(t => t.character === currentCharacter);
+    const charData = data.find(t => t.character.toLowerCase() === currentCharacter.toLowerCase());
     if (!charData) {
       console.error(`Missing talents for: ${currentCharacter}`);
       return;
@@ -201,6 +201,7 @@ fetch('/postacieJS/talents.json')
     renderTalents(charData.talents);
   })
   .catch(err => console.error('Error fetching talents:', err));
+
 
 function renderTalents(talentsObj) {
   const talentsList = document.getElementById('talentsList');
