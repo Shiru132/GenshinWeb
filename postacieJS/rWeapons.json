@@ -1,82 +1,544 @@
 {
+  "Albedo": [
+    {
+      "name": "Cinnabar Spindle",
+      "image": "/img/bronieZdj/CinnabarSpindle.png",
+      "description": "After casting Elemental Skill, the wearer gains a buff that increases DEF by 20%. This buff lasts 8s and can be triggered once every 10s.",
+      "link": "Bronie.html#CinnabarSpindle"
+    }
+  ],
+  "Aloy": [
+    {
+      "name": "Polar Star",
+      "image": "/img/bronieZdj/PolarStar.png",
+      "description": "Every 4s, Normal or Charged Attacks grant the equipping character 1 stack of Iceborn Legacy for 6s. Each stack increases ATK by 6% and increases Normal and Charged Attack DMG by 3%. Max 4 stacks.",
+      "link": "Bronie.html#PolarStar"
+    }
+  ],
+  "Amber": [
+    {
+      "name": "Rostam",
+      "image": "/img/bronieZdj/Rostam.png",
+      "description": "Increases Elemental Skill DMG by 12%. Also increases Charged Shot DMG by 8% after using Elemental Skill.",
+      "link": "Bronie.html#Rostam"
+    }
+  ],
+  "Arataki Itto": [
+    {
+      "name": "Redhorn Stonethresher",
+      "image": "/img/bronieZdj/RedhornStonethresher.png",
+      "description": "On hit, increases ATK by 4–16% (scales with refinement) for 8s. When off-field, this effect increases to 60% of normal value.",
+      "link": "Bronie.html#RedhornStonethresher"
+    }
+  ],
   "Arlecchino": [
     {
       "name": "Crimson Moon's Semblance",
-      "image": "/img/bronieZdj/CrimsonMoon'sSemblance.png",
-      "description": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 12% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 24% DMG Bonus.",
-      "link": "Bronie.html#CrimsonMoon'sSemblance"
+      "image": "/img/bronieZdj/CrimsonMoonsSemblance.png",
+      "description": "A keen‑edged weapon, luster dazzling as the crimson moon. It is said that an ancient dynasty once regarded it as a ritual object that could bridge two worlds, but none still remember the beliefs and ceremonies of that bygone age.",
+      "link": "Bronie.html#CrimsonMoonsSemblance"
     }
   ],
-  "Diluc": [
+  "Barbara": [
     {
-      "name": "Wolf's Gravestone",
+      "name": "Thrilling Tales of Dragon Slayers",
+      "image": "/img/bronieZdj/ThrillingTales.png",
+      "description": "When switching characters, the new character taking the field has their ATK increased by 48% of Barbara’s own ATK. The effect lasts 10s. This effect can only trigger once every 20s.",
+      "link": "Bronie.html#ThrillingTalesOfDragonSlayers"
+    }
+  ],
+  "Beidou": [
+    {
+      "name": "Wolf’s Gravestone",
       "image": "/img/bronieZdj/WolfsGravestone.png",
-      "description": "Zwiększa ATK i ATK% dla posiadacza, idealna dla Pyro DPS.",
+      "description": "A greatsword said to have been wielded by many renowned warriors. It increases ATK by 20%. On hitting an enemy, all nearby party members gain 40% ATK for 12s. Can only occur once every 30s.",
       "link": "Bronie.html#WolfsGravestone"
-    }
-  ],
-  "Ganyu": [
-    {
-      "name": "Amos' Bow",
-      "image": "/img/bronieZdj/Amos'Bow.png",
-      "description": "Zwiększa DMG strzałów na dużą odległość i crit rate.",
-      "link": "Bronie.html#AmosBow"
-    }
-  ],
-  "Venti": [
-    {
-      "name": "Elegy for the End",
-      "image": "/img/bronieZdj/ElegyForTheEnd.png",
-      "description": "Zwiększa Energy Recharge i buffuje party po aktywacji umiejętności żywiołowej.",
-      "link": "Bronie.html#ElegyForTheEnd"
-    }
-  ],
-  "Klee": [
-    {
-      "name": "Lost Prayer to the Sacred Winds",
-      "image": "/img/bronieZdj/LostPrayer.png",
-      "description": "Zwiększa Movement SPD i CRIT Rate co kilka sekund.",
-      "link": "Bronie.html#LostPrayertotheSacredWinds"
     }
   ],
   "Bennett": [
     {
       "name": "The Black Sword",
       "image": "/img/bronieZdj/TheBlackSword.png",
-      "description": "Zwiększa CRIT Rate i przywraca HP przy zadawaniu trafień krytycznych.",
+      "description": "On hit, increases CRIT Rate by 4%. A CRIT hit regenerates 2 Energy. Can only occur once every 5s.",
       "link": "Bronie.html#TheBlackSword"
+    }
+  ],
+  "Chongyun": [
+    {
+      "name": "Sacrificial Greatsword",
+      "image": "/img/bronieZdj/SacrificialGreatsword.png",
+      "description": "After dealing damage with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+      "link": "Bronie.html#SacrificialGreatsword"
+    }
+  ],
+  "Collei": [
+    {
+      "name": "Mouun’s Moon",
+      "image": "/img/bronieZdj/MouunsMoon.png",
+      "description": "After the wearer uses an Elemental Skill, their next attack within 7s grants a 12% DMG Bonus. This can stack up to 3 times.",
+      "link": "Bronie.html#MouunsMoon"
+    }
+  ],
+
+
+  "Diluc": [
+    {
+      "name": "Wolf's Gravestone",
+      "image": "/img/bronieZdj/WolfsGravestone.png",
+      "description": "A longsword said to have been used by the Knight of Boreas. It became endowed with legendary power owing to his friendship with the wolves.",
+      "link": "Bronie.html#WolfsGravestone"
+    }
+  ],
+  "Diona": [
+    {
+      "name": "Sacrificial Bow",
+      "image": "/img/bronieZdj/SacrificialBow.png",
+      "description": "On the cliff facing the eastern sea, the ancestors worshipped the masters of Time and Anemo together. “Anemo brings stories while Time nurtures them.” This bow tells the story of the pioneers and the hardships they went through. It used to be a prop with an immobile bowstring, but the string became both flexible and sturdier with the passage of time.",
+      "link": "Bronie.html#SacrificialBow"
     }
   ],
   "Eula": [
     {
       "name": "Snow-Tombed Starsilver",
       "image": "/img/bronieZdj/SnowTombedStarsilver.png",
-      "description": "Zwiększa Physical DMG i CRIT Rate, dodatkowy AoE Physical Burst.",
-      "link": "Bronie.html#SnowTombedStarsilver"
+      "description": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
+      "link": "Bronie.html#Snow-TombedStarsilver"
     }
   ],
-  "Zhongli": [
+  "Fischl": [
     {
-      "name": "Vortex Vanquisher",
-      "image": "/img/bronieZdj/VortexVanquisher.png",
-      "description": "Zwiększa shield strength i ATK po aktywacji tarczy.",
-      "link": "Bronie.html#VortexVanquisher"
+      "name": "Mitternachts Waltz",
+      "image": "/img/bronieZdj/MitternachtsWaltz.png",
+      "description": "A bow painted the color of transgression and nights of illusion.",
+      "link": "Bronie.html#MitternachtsWaltz"
+    }
+  ],
+  "Ganyu": [
+    {
+      "name": "Amos' Bow",
+      "image": "/img/bronieZdj/AmosBow.png",
+      "description": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+      "link": "Bronie.html#AmosBow"
     }
   ],
   "Hu Tao": [
     {
       "name": "Staff of Homa",
       "image": "/img/bronieZdj/StaffofHoma.png",
-      "description": "Zwiększa CRIT DMG i wzmacnia Atk% przy niskim HP.",
+      "description": "To cleanse by fire all that is impure, to allow the impurities to rise with the flames unto the all-accommodating high heavens. These rites would see fresh cinder lit during the rainy seasons, and wolf smoke would arise from those fires as prayers for blessings and the defeat of evil.",
       "link": "Bronie.html#StaffofHoma"
     }
   ],
-  "Xiao": [
+  "Jean": [
+    {
+      "name": "Skyward Blade",
+      "image": "/img/bronieZdj/SkywardBlade.png",
+      "description": "A blade that lights the firmament and commands the wind beneath its wings, granting its wielder swiftness like a gale.",
+      "link": "Bronie.html#SkywardBlade"
+    }
+  ],
+  "Kaeya": [
+    {
+      "name": "Aquila Favonia",
+      "image": "/img/bronieZdj/AquilaFavonia.png",
+      "description": "A sword recovered from a fallen meteor. The purifying power of this blade emulates the sharp drop of the wind and is said to be able to slay evil.",
+      "link": "Bronie.html#AquilaFavonia"
+    }
+  ],
+  "Kazuha": [
+    {
+      "name": "Freedom-Sworn",
+      "image": "/img/bronieZdj/FreedomSworn.png",
+      "description": "A sword born of the winds of freedom. It is gifted only to those who stand guard for countless souls and offers a vow to protect those they hold dear.",
+      "link": "Bronie.html#Freedom-Sworn"
+    }
+  ],
+  "Keqing": [
+    {
+      "name": "Primordial Jade Cutter",
+      "image": "/img/bronieZdj/PrimordialJadeCutter.png",
+      "description": "This jade sword was once used in the ceremonial rituals of a forgotten kingdom. It is said to guide the wielder’s soul and lend it balance and clarity.",
+      "link": "Bronie.html#PrimordialJadeCutter"
+    }
+  ],
+"Klee": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "image": "/img/bronieZdj/LostPrayerToTheSacredWinds.png",
+      "description": "When flowers bloom, when leaves sway, that is I who sings the songs of freedom, of the winds.",
+      "link": "Bronie.html#LostPrayertoTheSacredWinds"
+    }
+  ],
+  "Lisa": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "image": "/img/bronieZdj/LostPrayerToTheSacredWinds.png",
+      "description": "When flowers bloom, when leaves sway, that is I who sings the songs of freedom, of the winds.",
+      "link": "Bronie.html#LostPrayertoTheSacredWinds"
+    }
+  ],
+  "Mona": [
+    {
+      "name": "Skyward Atlas",
+      "image": "/img/bronieZdj/SkywardAtlas.png",
+      "description": "A wondrous tome said to house all the secrets of the universe. Its pages portray the boundless skies, and within them, infinite possibility.",
+      "link": "Bronie.html#SkywardAtlas"
+    }
+  ],
+  "Ningguang": [
+    {
+      "name": "Memory of Dust",
+      "image": "/img/bronieZdj/MemoryofDust.png",
+      "description": "A catalyst crafted from crystallized stardust. It whispers of both silent voids and celestial grandeur.",
+      "link": "Bronie.html#MemoryofDust"
+    }
+  ],
+  "Noelle": [
+    {
+      "name": "Whiteblind",
+      "image": "/img/bronieZdj/Whiteblind.png",
+      "description": "A claymore that upholds the virtues of knighthood: defense, fortitude, and unyielding will.",
+      "link": "Bronie.html#Whiteblind"
+    }
+  ],
+  "Qiqi": [
+    {
+      "name": "Mappa Mare",
+      "image": "/img/bronieZdj/MappaMare.png",
+      "description": "A broadsword said to guide lost souls home, its gentle glow a beacon through shadowed seas.",
+      "link": "Bronie.html#MappaMare"
+    }
+  ],
+  "Razor": [
+    {
+      "name": "Wolf’s Gravestone",
+      "image": "/img/bronieZdj/WolfsGravestone.png",
+      "description": "A greatsword said to have been wielded by the wolves themselves. It carries the howl of the wilderness in its steel.",
+      "link": "Bronie.html#WolfsGravestone"
+    }
+  ],
+  "Sucrose": [
+    {
+      "name": "Sacrificial Fragments",
+      "image": "/img/bronieZdj/SacrificialFragments.png",
+      "description": "A catalyst once used in alchemical rites. Even now, it feels as if it can erase the burden of its own power.",
+      "link": "Bronie.html#SacrificialFragments"
+    }
+  ],
+  "Tartaglia": [
+    {
+      "name": "Polar Star",
+      "image": "/img/bronieZdj/PolarStar.png",
+      "description": "A bow that draws upon the winds of space. Charged attacks weave star‑like patterns in the sky.",
+      "link": "Bronie.html#PolarStar"
+    }
+  ],
+  "Traveler": [
+    {
+      "name": "Freedom-Sworn",
+      "image": "/img/bronieZdj/FreedomSworn.png",
+      "description": "A sword born of the winds of freedom. It is gifted only to those who stand guard for countless souls and offers a vow to protect those they hold dear.",
+      "link": "Bronie.html#Freedom-Sworn"
+    }
+  ],
+  "Venti": [
+    {
+      "name": "Elegy for the End",
+      "image": "/img/bronieZdj/ElegyForTheEnd.png",
+      "description": "A bow as lovely as any bard’s lyre, its arrows pierce the heart like a lamenting sigh.",
+      "link": "Bronie.html#ElegyForTheEnd"
+    }
+  ],
+  "Xiangling": [
+    {
+      "name": "Staff of Homa",
+      "image": "/img/bronieZdj/StaffofHoma.png",
+      "description": "To cleanse by fire all that is impure, to allow the impurities to rise with the flames unto the all‑accommodating high heavens. These rites would see fresh cinder lit during the rainy seasons, and wolf smoke would arise from those fires as prayers for blessings and the defeat of evil.",
+      "link": "Bronie.html#StaffofHoma"
+    }
+  ],
+  "Xingqiu": [
+    {
+      "name": "Sacrificial Sword",
+      "image": "/img/bronieZdj/SacrificialSword.png",
+      "description": "After dealing damage with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.",
+      "link": "Bronie.html#SacrificialSword"
+    }
+  ],
+  "Xinyan": [
+    {
+      "name": "Serpent Spine",
+      "image": "/img/bronieZdj/SerpentSpine.png",
+      "description": "Every 4s, the wielder’s Normal and Charged Attacks increase ATK by 7% and decrease DEF by 3% for 6s. This effect can stack up to 2 times and can only occur once every 0.3s.",
+      "link": "Bronie.html#SerpentSpine"
+    }
+  ],
+  "Yanfei": [
+    {
+      "name": "The Widsith",
+      "image": "/img/bronieZdj/TheWidsith.png",
+      "description": "When the character equipped with this weapon takes the field, they will gain one of the following themes for 10s: The Exquisite (ATK +60%), The Resonance (Elemental Mastery +240), or The Finale (All Elemental DMG +48%).",
+      "link": "Bronie.html#TheWidsith"
+    }
+  ],
+  "Yelan": [
+    {
+      "name": "Polar Star",
+      "image": "/img/bronieZdj/PolarStar.png",
+      "description": "Every 4s, Normal or Charged Attacks grant the equipping character 1 stack of Iceborn Legacy for 6s. Each stack increases ATK by 6% and increases Normal and Charged Attack DMG by 3%. Max 4 stacks.",
+      "link": "Bronie.html#PolarStar"
+    }
+  ],
+  "Yunjin": [
     {
       "name": "Primordial Jade Winged-Spear",
       "image": "/img/bronieZdj/PrimordialJadeWingedSpear.png",
-      "description": "Zwiększa ATK i dodatkowo wzmacnia DMG przy kolejnym ataku.",
-      "link": "Bronie.html#PrimordialJadeWingedSpear"
+      "description": "The wurm descending denotes the bond between sky and earth. This weapon increases CRIT Rate by 2.3% and ATK by 3.2% every 4s a normal attack hits. Max 7 stacks.",
+      "link": "Bronie.html#PrimordialJadeWinged-Spear"
+    }
+  ],
+  "Dori": [
+    {
+      "name": "Memory of Dust",
+      "image": "/img/bronieZdj/MemoryofDust.png",
+      "description": "A catalyst crafted from crystallized stardust. When the wielder hits an opponent with Normal or Charged Attack, ATK is increased by 1.2% for 6s. Max 10 stacks. While this buff is active, the wielder’s Shield Strength is increased by 12%.",
+      "link": "Bronie.html#MemoryofDust"
+    }
+  ],
+  "Raiden Shogun": [
+    {
+      "name": "Engulfing Lightning",
+      "image": "/img/bronieZdj/EngulfingLightning.png",
+      "description": "Increases Energy Recharge by 20%. Also increases ATK by 28% of Energy Recharge over the base 100%.",
+      "link": "Bronie.html#EngulfingLightning"
+    }
+  ],
+  "Kujou Sara": [
+    {
+      "name": "Thundering Pulse",
+      "image": "/img/bronieZdj/ThunderingPulse.png",
+      "description": "Increases ATK by 20% and Normal Attack DMG by 12%.",
+      "link": "Bronie.html#ThunderingPulse"
+    }
+  ],
+  "Yae Miko": [
+    {
+      "name": "Kagura's Verity",
+      "image": "/img/bronieZdj/KagurasVerity.png",
+      "description": "When casting an Elemental Skill, the skill’s CD is reduced by 1s. This effect can trigger once every 10s. Also increases Elemental Skill DMG by 16%.",
+      "link": "Bronie.html#KagurasVerity"
+    }
+  ],
+  "Kamisato Ayaka": [
+    {
+      "name": "Mistsplitter Reforged",
+      "image": "/img/bronieZdj/MistsplitterReforged.png",
+      "description": "Increases Elemental DMG Bonus by 12%. Scoring hits grants a different DMG Bonus: Physical (8%), Pyro (12%), Cryo (12%), etc., for 6s. Can stack up to 3 times.",
+      "link": "Bronie.html#MistsplitterReforged"
+    }
+  ],
+  "Kamisato Ayato": [
+    {
+      "name": "Primordial Jade Cutter",
+      "image": "/img/bronieZdj/PrimordialJadeCutter.png",
+      "description": "Increases HP by 20%. Additionally increases ATK by 1.2% of Max HP.",
+      "link": "Bronie.html#PrimordialJadeCutter"
+    }
+  ],
+  "Yoimiya": [
+    {
+      "name": "Hamayumi",
+      "image": "/img/bronieZdj/Hamayumi.png",
+      "description": "After casting an Elemental Skill, increases Charged Attack DMG by 12% for 5s. While the skill is on cooldown, ATK is increased by 8%.",
+      "link": "Bronie.html#Hamayumi"
+    }
+  ],
+  "Sayu": [
+    {
+      "name": "Serpent Spine",
+      "image": "/img/bronieZdj/SerpentSpine.png",
+      "description": "Every 4s, the wielder’s Normal and Charged Attacks increase ATK by 7% and decrease DEF by 3% for 6s. This effect can stack up to 2 times and can only occur once every 0.3s.",
+      "link": "Bronie.html#SerpentSpine"
+    }
+  ],
+  "Thoma": [
+    {
+      "name": "Calamity Queller",
+      "image": "/img/bronieZdj/CalamityQueller.png",
+      "description": "On hit, increases ATK by 8% for 6s. Max 2 stacks. While ATK buff is active, further hits grant a 12% shield strength increase for 6s.",
+      "link": "Bronie.html#CalamityQueller"
+    }
+  ],
+  "Gorou": [
+    {
+      "name": "Hamayumi",
+      "image": "/img/bronieZdj/Hamayumi.png",
+      "description": "After casting an Elemental Skill, increases Charged Attack DMG by 12% for 5s. While the skill is on cooldown, ATK is increased by 8%.",
+      "link": "Bronie.html#Hamayumi"
+    }
+  ],
+  "Shenhe": [
+    {
+      "name": "Calamity Queller",
+      "image": "/img/bronieZdj/CalamityQueller.png",
+      "description": "On hit, increases ATK by 8% for 6s. Max 2 stacks. While ATK buff is active, further hits grant a 12% shield strength increase for 6s.",
+      "link": "Bronie.html#CalamityQueller"
+    }
+  ],
+   "Rosaria": [
+    {
+      "name": "Crescent Pike",
+      "image": "/img/bronieZdj/CrescentPike.png",
+      "description": "As if drawn by some mystical power, the pike would fly from her hand toward her opponents’ fatal flaws. “Perhaps all that lives waits willingly for death.”",
+      "link": "Bronie.html#CrescentPike"
+    }
+  ],
+  "Kokomi": [
+    {
+      "name": "Everlasting Moonglow",
+      "image": "/img/bronieZdj/EverlastingMoonglow.png",
+      "description": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever‑distant.",
+      "link": "Bronie.html#EverlastingMoonglow"
+    }
+  ],
+  "Heizou": [
+    {
+      "name": "The Alley Flash",
+      "image": "/img/bronieZdj/TheAlleyFlash.png",
+      "description": "A blade forged in the slums of Inazuma, its gleaming edge symbolizes hope for those born into shadow.",
+      "link": "Bronie.html#TheAlleyFlash"
+    }
+  ],
+  "Kirara": [
+    {
+      "name": "Xiphos’ Moonlight",
+      "image": "/img/bronieZdj/XiphosMoonlight.png",
+      "description": "Forged under a blade of moonlight, this sword whispers ancient lullabies to any who dare to wield it.",
+      "link": "Bronie.html#XiphosMoonlight"
+    }
+  ],
+  "Kuki Shinobu": [
+    {
+      "name": "Mistsplitter Reforged",
+      "image": "/img/bronieZdj/MistsplitterReforged.png",
+      "description": "Forged from the mist and moonlight, its blade cleaves through illusions as easily as steel through silk.",
+      "link": "Bronie.html#MistsplitterReforged"
+    }
+  ],
+  "Nahida": [
+    {
+      "name": "Everlasting Moonglow",
+      "image": "/img/bronieZdj/EverlastingMoonglow.png",
+      "description": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever‑distant.",
+      "link": "Bronie.html#EverlastingMoonglow"
+    }
+  ],
+  "Tighnari": [
+    {
+      "name": "Aqua Simulacra",
+      "image": "/img/bronieZdj/AquaSimulacra.png",
+      "description": "A bow imbued with the memory of ocean tides, its arrows crash down like relentless waves.",
+      "link": "Bronie.html#AquaSimulacra"
+    }
+  ],
+  "Alhaitham": [
+    {
+      "name": "Mistsplitter Reforged",
+      "image": "/img/bronieZdj/MistsplitterReforged.png",
+      "description": "Forged from the mist and moonlight, its blade cleaves through illusions as easily as steel through silk.",
+      "link": "Bronie.html#MistsplitterReforged"
+    }
+  ],
+  "Dehya": [
+    {
+      "name": "Redhorn Stonethresher",
+      "image": "/img/bronieZdj/RedhornStonethresher.png",
+      "description": "On hit, increases ATK by 4–16% for 8s. When off‑field, this effect increases to 60% of its normal value.",
+      "link": "Bronie.html#RedhornStonethresher"
+    }
+  ],
+  "Lyney": [
+    {
+      "name": "The Stringless",
+      "image": "/img/bronieZdj/TheStringless.png",
+      "description": "A bow once owned by a legendary musician. It empowers elemental prowess, letting every note ring true.",
+      "link": "Bronie.html#TheStringless"
+    }
+  ],
+  "Lynette": [
+    {
+      "name": "Elegy for the End",
+      "image": "/img/bronieZdj/ElegyForTheEnd.png",
+      "description": "A bow as lovely as any bard’s lyre, its arrows pierce the heart like a lamenting sigh.",
+      "link": "Bronie.html#ElegyForTheEnd"
+    }
+  ],
+  "Mika": [
+    {
+      "name": "Primordial Jade Cutter",
+      "image": "/img/bronieZdj/PrimordialJadeCutter.png",
+      "description": "This jade sword was once used in ceremonial rituals of a forgotten kingdom. It is said to guide the wielder’s soul and lend it balance and clarity.",
+      "link": "Bronie.html#PrimordialJadeCutter"
+    }
+  ],
+  "Candace": [
+    {
+      "name": "Staff of Homa",
+      "image": "/img/bronieZdj/StaffofHoma.png",
+      "description": "To cleanse by fire all that is impure, to allow the impurities to rise with the flames unto the high heavens.",
+      "link": "Bronie.html#StaffofHoma"
+    }
+  ],
+  "Cyno": [
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "image": "/img/bronieZdj/PrimordialJadeWinged-Spear.png",
+      "description": "The wurm descending denotes the bond between sky and earth. This spear increases CRIT Rate and ATK every 4s a Normal Attack hits.",
+      "link": "Bronie.html#PrimordialJadeWinged-Spear"
+    }
+  ],
+  "Baizhu": [
+    {
+      "name": "Skyward Atlas",
+      "image": "/img/bronieZdj/SkywardAtlas.png",
+      "description": "A wondrous tome said to house all the secrets of the universe. Its pages portray the boundless skies, and within them, infinite possibility.",
+      "link": "Bronie.html#SkywardAtlas"
+    }
+  ],
+  "Charlotte": [
+    {
+      "name": "Black Tassel",
+      "image": "/img/bronieZdj/BlackTassel.png",
+      "description": "A simple spear favored by soldiers. Its length and weight find a perfect balance of offense and defense.",
+      "link": "Bronie.html#BlackTassel"
+    }
+  ],
+  "Neuvillette": [
+    {
+      "name": "Tome of the Eternal Flow",
+      "image": "/img/bronieZdj/TomeoftheEternalFlow.png",
+      "description": "Neuvillette’s signature weapon, its pages flow like living water, bestowing both strength and resolve.",
+      "link": "Bronie.html#TomeoftheEternalFlow"
+    }
+  ],
+  "Wriothesley": [
+    {
+      "name": "Skyward Pride",
+      "image": "/img/bronieZdj/SkywardPride.png",
+      "description": "A greatsword that soars on the wind; its blows echo with the thunder of storms.",
+      "link": "Bronie.html#SkywardPride"
+    }
+  ],
+  "Layla": [
+    {
+      "name": "Snow-Tombed Starsilver",
+      "image": "/img/bronieZdj/SnowTombedStarsilver.png",
+      "description": "An ancient greatsword forged from Starsilver, capable of cleaving through ice and snow.",
+      "link": "Bronie.html#Snow-TombedStarsilver"
     }
   ]
 }
+
+
+
+

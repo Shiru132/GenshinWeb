@@ -31,7 +31,8 @@ const slug = window.location.pathname
 
 const currentCharacter = slug.charAt(0).toUpperCase() + slug.slice(1);
 console.log('Current character:', currentCharacter);
-
+// Genshin blue API with weapons data
+// może kiedyś bo na razie nie ma koncepcji
 // ————— Weapons rendering —————
 fetch('/postacieJS/rWeapons.json')
   .then(resp => {
