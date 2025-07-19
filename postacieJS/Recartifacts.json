@@ -1,39 +1,742 @@
 {
   "characters": [
     {
+      "name": "Albedo",
+      "artifacts": [
+        {
+          "artifactName": "Husk of Opulent Dreams",
+          "image": "/img/artefakty/HuskOfOpulentDreams.png",
+          "link": "artifacts.html#HuskOfOpulentDreams",
+          "describe": "Max Rarity: 5 | 2-piece: DEF +30%. | 4-piece: Within 8s of triggering Elemental Skill, gain Lifeless Blade: ATK increased by 1% per point of DEF; decreases DEF by 30% of DEF."
+        },
+        {
+          "artifactName": "Tenacity of the Millelith",
+          "image": "/img/artefakty/TenacityOfTheMillelith.png",
+          "link": "artifacts.html#TenacityOfTheMillelith",
+          "describe": "Max Rarity: 5 | 2-piece: HP +20%. | 4-piece: When casting Elemental Skill, nearby party members’ ATK increased by 20% and Shield Strength increased by 30% for 3s."
+        }
+      ]
+    },
+    {
+      "name": "Aloy",
+      "artifacts": [
+        {
+          "artifactName": "Retracing Bolide",
+          "image": "/img/artefakty/RetracingBolide.png",
+          "link": "artifacts.html#RetracingBolide",
+          "describe": "Max Rarity: 5 | 2-piece: Increases Shield Strength by 35%. | 4-piece: While protected by a shield, Normal and Charged Attack DMG increased by 40%."
+        },
+        {
+          "artifactName": "Shimenawa's Reminiscence",
+          "image": "/img/artefakty/ShimenawasReminiscence.png",
+          "link": "artifacts.html#ShimenawasReminiscence",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: When casting an Elemental Skill, if the character has ≥15 Energy, consumes 15 Energy to gain +50% ATK for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Amber",
+      "artifacts": [
+        {
+          "artifactName": "Thundering Fury",
+          "image": "/img/artefakty/ThunderingFury.png",
+          "link": "artifacts.html#ThunderingFury",
+          "describe": "Max Rarity: 5 | 2-piece: Electro DMG Bonus +15%. | 4-piece: Increases damage caused by Overload, Electro-Charged, and Superconduct by 40%, and triggers an ATK increase of 20% for 12s when these reactions are triggered."
+        },
+        {
+          "artifactName": "Berserker",
+          "image": "/img/artefakty/Berserker.png",
+          "link": "artifacts.html#Berserker",
+          "describe": "Max Rarity: 5 | 2-piece: CRIT Rate +12%. | 4-piece: If CRIT Rate < 100%, CRIT Rate increased by 24%."
+        }
+      ]
+    },
+    {
+      "name": "Arataki Itto",
+      "artifacts": [
+        {
+          "artifactName": "Husk of Opulent Dreams",
+          "image": "/img/artefakty/HuskOfOpulentDreams.png",
+          "link": "artifacts.html#HuskOfOpulentDreams",
+          "describe": "Max Rarity: 5 | 2-piece: DEF +30%. | 4-piece: Within 8s of Elemental Skill, ATK increased by 1% per point of DEF; decreases DEF by 30%."
+        },
+        {
+          "artifactName": "Tenacity of the Millelith",
+          "image": "/img/artefakty/TenacityOfTheMillelith.png",
+          "link": "artifacts.html#TenacityOfTheMillelith",
+          "describe": "Max Rarity: 5 | 2-piece: HP +20%. | 4-piece: Upon Elemental Skill, nearby party ATK +20% and Shield +30% for 3s."
+        }
+      ]
+    },
+    {
       "name": "Arlecchino",
       "artifacts": [
         {
           "artifactName": "Crimson Witch of Flames",
           "image": "/img/artefakty/CrimsonWitchofFlames.png",
           "link": "artifacts.html#CrimsonWitchOfFlames",
-          "describe": "Max Rarity: 5 | 2-piece bonus: Gain a 15% Pyro DMG Bonus. | 4-piece bonus: Increases Overloaded and Burning DMG by 40%..."
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Increases Overloaded and Burning DMG by 40% and Vaporize/Melt DMG by 15%."
         },
         {
           "artifactName": "Shimenawa's Reminiscence",
           "image": "/img/artefakty/ShimenawasReminiscence.png",
           "link": "artifacts.html#ShimenawasReminiscence",
-          "describe": "Max Rarity: 5 | 2-piece bonus: ATK +18% | 4-piece bonus: When casting an Elemental Skill..."
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: Consumes 15 Energy upon Elemental Skill to gain +50% ATK for 10s."
         }
       ]
     },
     {
-      "name": "Neuvillette",
+      "name": "Barbara",
       "artifacts": [
+        {
+          "artifactName": "Ocean-Hued Clam",
+          "image": "/img/artefakty/OceanHuedClam.png",
+          "link": "artifacts.html#OceanHuedClam",
+          "describe": "Max Rarity: 5 | 2-piece: Healing Bonus +15%. | 4-piece: When Healing, gain a damage bonus equal to 20% of Healing for 10s."
+        },
         {
           "artifactName": "Heart of Depth",
           "image": "/img/artefakty/HeartOfDepth.png",
           "link": "artifacts.html#HeartOfDepth",
-          "describe": "Max Rarity: 5 | 2-piece bonus: Hydro DMG Bonus +15% | 4-piece bonus: After using Elemental Skill..."
+          "describe": "Max Rarity: 5 | 2-piece: Hydro DMG +15%. | 4-piece: After Elemental Skill, Normal and Charged Attack DMG +30% for 15s."
+        }
+      ]
+    },
+    {
+      "name": "Beidou",
+      "artifacts": [
+        {
+          "artifactName": "Thundering Fury",
+          "image": "/img/artefakty/ThunderingFury.png",
+          "link": "artifacts.html#ThunderingFury",
+          "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Increases Overload, Electro-Charged, Superconduct DMG by 40%, and ATK +20% for 12s when triggered."
         },
         {
           "artifactName": "Noblesse Oblige",
           "image": "/img/artefakty/NoblesseOblige.png",
           "link": "artifacts.html#NoblesseOblige",
-          "describe": "Max Rarity: 5 | 2-piece bonus: Elemental Burst DMG +20% | 4-piece bonus: Using an Elemental Burst increases all party members' ATK by 20%..."
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Bennett",
+      "artifacts": [
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Burst increases party ATK by 20% for 12s."
+        },
+        {
+          "artifactName": "Gladiator's Finale",
+          "image": "/img/artefakty/GladiatorsFinale.png",
+          "link": "artifacts.html#GladiatorsFinale",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: If using a Sword, Claymore, or Polearm, increases Normal Attack DMG by 35%."
+        }
+      ]
+    },
+    {
+      "name": "Chongyun",
+      "artifacts": [
+        {
+          "artifactName": "Blizzard Strayer",
+          "image": "/img/artefakty/BlizzardStrayer.png",
+          "link": "artifacts.html#BlizzardStrayer",
+          "describe": "Max Rarity: 5 | 2-piece: Cryo DMG +15%. | 4-piece: CRIT Rate +20%; if opponent Frozen, +20% more."
+        },
+        {
+          "artifactName": "Maiden Beloved",
+          "image": "/img/artefakty/MaidenBeloved.png",
+          "link": "artifacts.html#MaidenBeloved",
+          "describe": "Max Rarity: 5 | 2-piece: Healing +15%. | 4-piece: Using Elemental Skill or Burst increases Healing Received by all party members by 20% for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Collei",
+      "artifacts": [
+        {
+          "artifactName": "Deepwood Memories",
+          "image": "/img/artefakty/DeepwoodMemories.png",
+          "link": "artifacts.html#DeepwoodMemories",
+          "describe": "Max Rarity: 5 | 2-piece: Dendro DMG +15%. | 4-piece: Decreases opponent Dendro RES by 30% for 8s."
+        },
+        {
+          "artifactName": "Instructor",
+          "image": "/img/artefakty/Instructor.png",
+          "link": "artifacts.html#Instructor",
+          "describe": "Max Rarity: 4 | 2-piece: Increases Elemental Mastery by 80. | 4-piece: After using Elemental Skill, increases all party Elemental Mastery by 120 for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Diona",
+      "artifacts": [
+        {
+          "artifactName": "Blizzard Strayer",
+          "image": "/img/artefakty/BlizzardStrayer.png",
+          "link": "artifacts.html#BlizzardStrayer",
+          "describe": "Max Rarity: 5 | 2-piece: Cryo DMG +15%. | 4-piece: CRIT Rate +20%; if opponent Frozen, +20% more."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using Elemental Burst grants party ATK +20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Diluc",
+      "artifacts": [
+        {
+          "artifactName": "Crimson Witch of Flames",
+          "image": "/img/artefakty/CrimsonWitchofFlames.png",
+          "link": "artifacts.html#CrimsonWitchOfFlames",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Overloaded/Burning DMG +40%; Vaporize/Melt DMG +15%."
+        },
+        {
+          "artifactName": "Lavawalker",
+          "image": "/img/artefakty/Lavawalker.png",
+          "link": "artifacts.html#Lavawalker",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro RES +40%. | 4-piece: DMG against Pyro-affected enemies +35%."
+        }
+      ]
+    },
+    {
+      "name": "Dori",
+      "artifacts": [
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Burst grants party ATK +20% for 12s."
+        },
+        {
+          "artifactName": "Maiden Beloved",
+          "image": "/img/artefakty/MaidenBeloved.png",
+          "link": "artifacts.html#MaidenBeloved",
+          "describe": "Max Rarity: 5 | 2-piece: Healing +15%. | 4-piece: Skill/Burst increases Healing Received by party +20% for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Eula",
+      "artifacts": [
+        {
+          "artifactName": "Pale Flame",
+          "image": "/img/artefakty/PaleFlame.png",
+          "link": "artifacts.html#PaleFlame",
+          "describe": "Max Rarity: 5 | 2-piece: Physical DMG +25%. | 4-piece: After Elemental Skill, ATK +9% for 7s; stacks 2 times."
+        },
+        {
+          "artifactName": "Tenacity of the Millelith",
+          "image": "/img/artefakty/TenacityOfTheMillelith.png",
+          "link": "artifacts.html#TenacityOfTheMillelith",
+          "describe": "Max Rarity: 5 | 2-piece: HP +20%. | 4-piece: On Elemental Skill, party ATK +20% and Shield +30% for 3s."
+        }
+      ]
+    },
+    {
+      "name": "Fischl",
+      "artifacts": [
+        {
+          "artifactName": "Thundering Fury",
+          "image": "/img/artefakty/ThunderingFury.png",
+          "link": "artifacts.html#ThunderingFury",
+          "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Overload/Electro-Charged/Superconduct DMG +40%, ATK +20% for 12s when triggered."
+        },
+        {
+          "artifactName": "Instructor",
+          "image": "/img/artefakty/Instructor.png",
+          "link": "artifacts.html#Instructor",
+          "describe": "Max Rarity: 4 | 2-piece: Elemental Mastery +80. | 4-piece: After Elemental Skill, party Elemental Mastery +120 for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Ganyu",
+      "artifacts": [
+        {
+          "artifactName": "Blizzard Strayer",
+          "image": "/img/artefakty/BlizzardStrayer.png",
+          "link": "artifacts.html#BlizzardStrayer",
+          "describe": "Max Rarity: 5 | 2-piece: Cryo DMG +15%. | 4-piece: CRIT Rate +20%; additional +20% if Frozen."
+        },
+        {
+          "artifactName": "Wanderer's Troupe",
+          "image": "/img/artefakty/WanderersTroupe.png",
+          "link": "artifacts.html#WanderersTroupe",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Mastery +80. | 4-piece: Charged Attack DMG +35% if using Catalyst or Bow."
+        }
+      ]
+    },
+  
+
+  {
+      "name": "Hu Tao",
+      "artifacts": [
+        {
+          "artifactName": "Crimson Witch of Flames",
+          "image": "/img/artefakty/CrimsonWitchofFlames.png",
+          "link": "artifacts.html#CrimsonWitchOfFlames",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Overloaded/Burning DMG +40%; Vaporize/Melt DMG +15%."
+        },
+        {
+          "artifactName": "Shimenawa's Reminiscence",
+          "image": "/img/artefakty/ShimenawasReminiscence.png",
+          "link": "artifacts.html#ShimenawasReminiscence",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: When casting Elemental Skill, if the character has ≥15 Energy, consumes 15 Energy to gain +50% ATK for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Jean",
+      "artifacts": [
+        {
+          "artifactName": "Viridescent Venerer",
+          "image": "/img/artefakty/ViridescentVenerer.png",
+          "link": "artifacts.html#ViridescentVenerer",
+          "describe": "Max Rarity: 5 | 2-piece: Anemo DMG +15%. | 4-piece: Swirl DMG +60%; Opponent RES -40% to the element infused in the Swirl for 10s."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Kaeya",
+      "artifacts": [
+        {
+          "artifactName": "Blizzard Strayer",
+          "image": "/img/artefakty/BlizzardStrayer.png",
+          "link": "artifacts.html#BlizzardStrayer",
+          "describe": "Max Rarity: 5 | 2-piece: Cryo DMG +15%. | 4-piece: CRIT Rate +20%; additional +20% if Frozen."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Kazuha",
+      "artifacts": [
+        {
+          "artifactName": "Viridescent Venerer",
+          "image": "/img/artefakty/ViridescentVenerer.png",
+          "link": "artifacts.html#ViridescentVenerer",
+          "describe": "Max Rarity: 5 | 2-piece: Anemo DMG +15%. | 4-piece: Swirl DMG +60%; Opponent RES -40% to the element infused in the Swirl for 10s."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Keqing",
+      "artifacts": [
+        {
+          "artifactName": "Thundering Fury",
+          "image": "/img/artefakty/ThunderingFury.png",
+          "link": "artifacts.html#ThunderingFury",
+          "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Overload/Electro-Charged/Superconduct DMG +40%, ATK +20% for 12s when triggered."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Klee",
+      "artifacts": [
+        {
+          "artifactName": "Crimson Witch of Flames",
+          "image": "/img/artefakty/CrimsonWitchofFlames.png",
+          "link": "artifacts.html#CrimsonWitchOfFlames",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Overloaded/Burning DMG +40%; Vaporize/Melt DMG +15%."
+        },
+        {
+          "artifactName": "Lavawalker",
+          "image": "/img/artefakty/Lavawalker.png",
+          "link": "artifacts.html#Lavawalker",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro RES +40%. | 4-piece: DMG against Pyro-affected enemies +35%."
+        }
+      ]
+    },
+    {
+      "name": "Kokomi",
+      "artifacts": [
+        {
+          "artifactName": "Ocean-Hued Clam",
+          "image": "/img/artefakty/OceanHuedClam.png",
+          "link": "artifacts.html#OceanHuedClam",
+          "describe": "Max Rarity: 5 | 2-piece: Healing Bonus +15%. | 4-piece: When Healing, gain a DMG bonus equal to 20% of the Healing amount for 10s."
+        },
+        {
+          "artifactName": "Maiden Beloved",
+          "image": "/img/artefakty/MaidenBeloved.png",
+          "link": "artifacts.html#MaidenBeloved",
+          "describe": "Max Rarity: 5 | 2-piece: Healing +15%. | 4-piece: Skill/Burst increases Healing Received by party by 20% for 10s."
+        }
+      ]
+    },
+  
+    {
+      "name": "Lisa",
+      "artifacts": [
+        {
+          "artifactName": "Thundering Fury",
+          "image": "/img/artefakty/ThunderingFury.png",
+          "link": "artifacts.html#ThunderingFury",
+          "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Increases Overload, Electro-Charged and Superconduct DMG by 40%, and triggers an ATK increase of 20% for 12s when these reactions are triggered."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Mona",
+      "artifacts": [
+        {
+          "artifactName": "Emblem of Severed Fate",
+          "image": "/img/artefakty/EmblemOfSeveredFate.png",
+          "link": "artifacts.html#EmblemOfSeveredFate",
+          "describe": "Max Rarity: 5 | 2-piece: Energy Recharge +20%. | 4-piece: Increases Elemental Burst DMG by 25% of Energy Recharge."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Ningguang",
+      "artifacts": [
+        {
+          "artifactName": "Archaic Petra",
+          "image": "/img/artefakty/ArchaicPetra.png",
+          "link": "artifacts.html#ArchaicPetra",
+          "describe": "Max Rarity: 5 | 2-piece: Geo DMG +15%. | 4-piece: Upon obtaining an Elemental Shard created through a Crystallize reaction, all party members gain all elemental DMG bonus by 35% for 10s."
+        },
+        {
+          "artifactName": "Tenacity of the Millelith",
+          "image": "/img/artefakty/TenacityOfTheMillelith.png",
+          "link": "artifacts.html#TenacityOfTheMillelith",
+          "describe": "Max Rarity: 5 | 2-piece: HP +20%. | 4-piece: When Elemental Skill hits an opponent, increases ATK by 20% and Shield Strength by 30% for 3s."
+        }
+      ]
+    },
+    {
+      "name": "Noelle",
+      "artifacts": [
+        {
+          "artifactName": "Husk of Opulent Dreams",
+          "image": "/img/artefakty/HuskOfOpulentDreams.png",
+          "link": "artifacts.html#HuskOfOpulentDreams",
+          "describe": "Max Rarity: 5 | 2-piece: DEF +30%. | 4-piece: Within 8s of triggering Elemental Skill, gain Lifeless Blade: ATK +1% per DEF; DEF -30% of DEF."
+        },
+        {
+          "artifactName": "Tenacity of the Millelith",
+          "image": "/img/artefakty/TenacityOfTheMillelith.png",
+          "link": "artifacts.html#TenacityOfTheMillelith",
+          "describe": "Max Rarity: 5 | 2-piece: HP +20%. | 4-piece: On Elemental Skill, party ATK +20% and Shield +30% for 3s."
+        }
+      ]
+    },
+    {
+      "name": "Qiqi",
+      "artifacts": [
+        {
+          "artifactName": "Maiden Beloved",
+          "image": "/img/artefakty/MaidenBeloved.png",
+          "link": "artifacts.html#MaidenBeloved",
+          "describe": "Max Rarity: 5 | 2-piece: Healing Bonus +15%. | 4-piece: Using Elemental Skill or Burst increases Healing Received by all party members by 20% for 10s."
+        },
+        {
+          "artifactName": "Ocean-Hued Clam",
+          "image": "/img/artefakty/OceanHuedClam.png",
+          "link": "artifacts.html#OceanHuedClam",
+          "describe": "Max Rarity: 5 | 2-piece: Healing Bonus +15%. | 4-piece: When Healing, gain a DMG Bonus equal to 20% of the Healing done for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Razor",
+      "artifacts": [
+        {
+          "artifactName": "Pale Flame",
+          "image": "/img/artefakty/PaleFlame.png",
+          "link": "artifacts.html#PaleFlame",
+          "describe": "Max Rarity: 5 | 2-piece: Physical DMG +25%. | 4-piece: After Elemental Skill, ATK +9% for 7s; stacks 2 times."
+        },
+        {
+          "artifactName": "Gladiator's Finale",
+          "image": "/img/artefakty/GladiatorsFinale.png",
+          "link": "artifacts.html#GladiatorsFinale",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: If the wielder uses a Sword, Claymore, or Polearm, increases Normal Attack DMG by 35%."
+        }
+      ]
+    },
+    {
+      "name": "Rosaria",
+      "artifacts": [
+        {
+          "artifactName": "Blizzard Strayer",
+          "image": "/img/artefakty/BlizzardStrayer.png",
+          "link": "artifacts.html#BlizzardStrayer",
+          "describe": "Max Rarity: 5 | 2-piece: Cryo DMG +15%. | 4-piece: CRIT Rate +20%; additional +20% if Frozen."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Sucrose",
+      "artifacts": [
+        {
+          "artifactName": "Viridescent Venerer",
+          "image": "/img/artefakty/ViridescentVenerer.png",
+          "link": "artifacts.html#ViridescentVenerer",
+          "describe": "Max Rarity: 5 | 2-piece: Anemo DMG +15%. | 4-piece: Swirl DMG +60%; opponent RES -40% to the element infused in the Swirl for 10s."
+        },
+        {
+          "artifactName": "Instructor",
+          "image": "/img/artefakty/Instructor.png",
+          "link": "artifacts.html#Instructor",
+          "describe": "Max Rarity: 4 | 2-piece: Elemental Mastery +80. | 4-piece: After using an Elemental Skill, increases all party members' Elemental Mastery by 120 for 8s."
+        }
+      ]
+    },
+    {
+      "name": "Tartaglia",
+      "artifacts": [
+        {
+          "artifactName": "Heart of Depth",
+          "image": "/img/artefakty/HeartOfDepth.png",
+          "link": "artifacts.html#HeartOfDepth",
+          "describe": "Max Rarity: 5 | 2-piece: Hydro DMG +15%. | 4-piece: After Elemental Skill, increases Normal and Charged Attack DMG by 30% for 15s."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Traveler",
+      "artifacts": [
+        {
+          "artifactName": "Viridescent Venerer",
+          "image": "/img/artefakty/ViridescentVenerer.png",
+          "link": "artifacts.html#ViridescentVenerer",
+          "describe": "Max Rarity: 5 | 2-piece: Anemo DMG +15%. | 4-piece: Swirl DMG +60%; opponent RES -40% to the element infused in the Swirl for 10s."
+        },
+        {
+          "artifactName": "Archaic Petra",
+          "image": "/img/artefakty/ArchaicPetra.png",
+          "link": "artifacts.html#ArchaicPetra",
+          "describe": "Max Rarity: 5 | 2-piece: Geo DMG +15%. | 4-piece: Upon obtaining an Elemental Shard via Crystallize, all party members gain 35% elemental DMG Bonus for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Venti",
+      "artifacts": [
+        {
+          "artifactName": "Viridescent Venerer",
+          "image": "/img/artefakty/ViridescentVenerer.png",
+          "link": "artifacts.html#ViridescentVenerer",
+          "describe": "Max Rarity: 5 | 2-piece: Anemo DMG +15%. | 4-piece: Swirl DMG +60%; opponent RES -40% to the element infused in the Swirl for 10s."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Xiangling",
+      "artifacts": [
+        {
+          "artifactName": "Crimson Witch of Flames",
+          "image": "/img/artefakty/CrimsonWitchofFlames.png",
+          "link": "artifacts.html#CrimsonWitchOfFlames",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Overloaded/Burning DMG +40%; Vaporize/Melt DMG +15%."
+        },
+        {
+          "artifactName": "Shimenawa's Reminiscence",
+          "image": "/img/artefakty/ShimenawasReminiscence.png",
+          "link": "artifacts.html#ShimenawasReminiscence",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: Consumes 15 Energy on Elemental Skill to gain +50% ATK for 10s."
+        }
+      ]
+    },
+   
+ 
+    {
+      "name": "Xiao",
+      "artifacts": [
+        {
+          "artifactName": "Schwarzlied",
+          "image": "/img/artefakty/Schwarzlied.png",
+          "link": "artifacts.html#Schwarzlied",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +20%. | 4-piece: On hit, increases ATK by 8%-20% based on refinement for 10s."
+        },
+        {
+          "artifactName": "Gladiator's Finale",
+          "image": "/img/artefakty/GladiatorsFinale.png",
+          "link": "artifacts.html#GladiatorsFinale",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: If using a Polearm, increases Normal Attack DMG by 35%."
+        }
+      ]
+    },
+    {
+      "name": "Xingqiu",
+      "artifacts": [
+        {
+          "artifactName": "Emblem of Severed Fate",
+          "image": "/img/artefakty/EmblemOfSeveredFate.png",
+          "link": "artifacts.html#EmblemOfSeveredFate",
+          "describe": "Max Rarity: 5 | 2-piece: Energy Recharge +20%. | 4-piece: Increases Elemental Burst DMG by 25% of Energy Recharge."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members’ ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Xinyan",
+      "artifacts": [
+        {
+          "artifactName": "Pale Flame",
+          "image": "/img/artefakty/PaleFlame.png",
+          "link": "artifacts.html#PaleFlame",
+          "describe": "Max Rarity: 5 | 2-piece: Physical DMG +25%. | 4-piece: After Elemental Skill, ATK +9% for 7s; stacks twice."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members’ ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Yanfei",
+      "artifacts": [
+        {
+          "artifactName": "Crimson Witch of Flames",
+          "image": "/img/artefakty/CrimsonWitchofFlames.png",
+          "link": "artifacts.html#CrimsonWitchOfFlames",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Overloaded/Burning DMG +40%; Vaporize/Melt DMG +15%."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members’ ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Yae Miko",
+      "artifacts": [
+        {
+          "artifactName": "Thundering Fury",
+          "image": "/img/artefakty/ThunderingFury.png",
+          "link": "artifacts.html#ThunderingFury",
+          "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Increases Overload, Electro-Charged and Superconduct DMG by 40%."
+        },
+        {
+          "artifactName": "Noblesse Oblige",
+          "image": "/img/artefakty/NoblesseOblige.png",
+          "link": "artifacts.html#NoblesseOblige",
+          "describe": "Max Rarity: 5 | 2-piece: Burst DMG +20%. | 4-piece: Using Burst increases all party members’ ATK by 20% for 12s."
+        }
+      ]
+    },
+    {
+      "name": "Yelan",
+      "artifacts": [
+        {
+          "artifactName": "Heart of Depth",
+          "image": "/img/artefakty/HeartOfDepth.png",
+          "link": "artifacts.html#HeartOfDepth",
+          "describe": "Max Rarity: 5 | 2-piece: Hydro DMG +15%. | 4-piece: After using Elemental Skill, increases Normal and Charged Attack DMG by 30% for 15s."
+        },
+        {
+          "artifactName": "Maiden Beloved",
+          "image": "/img/artefakty/MaidenBeloved.png",
+          "link": "artifacts.html#MaidenBeloved",
+          "describe": "Max Rarity: 5 | 2-piece: Healing Bonus +15%. | 4-piece: When Healing, gain a DMG Bonus equal to 20% of the Healing amount for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Yoimiya",
+      "artifacts": [
+        {
+          "artifactName": "Crimson Witch of Flames",
+          "image": "/img/artefakty/CrimsonWitchofFlames.png",
+          "link": "artifacts.html#CrimsonWitchOfFlames",
+          "describe": "Max Rarity: 5 | 2-piece: Pyro DMG +15%. | 4-piece: Overloaded/Burning DMG +40%; Vaporize/Melt DMG +15%."
+        },
+        {
+          "artifactName": "Shimenawa's Reminiscence",
+          "image": "/img/artefakty/ShimenawasReminiscence.png",
+          "link": "artifacts.html#ShimenawasReminiscence",
+          "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: When casting Elemental Skill, consumes 15 Energy to gain +50% ATK for 10s."
+        }
+      ]
+    },
+    {
+      "name": "Zhongli",
+      "artifacts": [
+        {
+          "artifactName": "Archaic Petra",
+          "image": "/img/artefakty/ArchaicPetra.png",
+          "link": "artifacts.html#ArchaicPetra",
+          "describe": "Max Rarity: 5 | 2-piece: Geo DMG +15%. | 4-piece: Upon obtaining an Elemental Shard, all party members gain a 35% DMG boost for that element for 10s."
+        },
+        {
+          "artifactName": "Tenacity of the Millelith",
+          "image": "/img/artefakty/TenacityOfTheMillelith.png",
+          "link": "artifacts.html#TenacityOfTheMillelith",
+          "describe": "Max Rarity: 5 | 2-piece: HP +20%. | 4-piece: When casting Elemental Skill, nearby party members’ ATK +20% and Shield Strength +30% for 3s."
         }
       ]
     }
-    
   ]
 }
+
+
