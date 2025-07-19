@@ -24,6 +24,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ————— derive current character from URL —————
+const slug = window.location.pathname
+  .split('/')
+  .pop()
+  .replace('.html','');
+
+const currentCharacter = slug.charAt(0).toUpperCase() + slug.slice(1);
+console.log('Current character:', currentCharacter);
+
 // ————— Weapons rendering —————
 fetch('/postacieJS/rWeapons.json')
   .then(resp => {
