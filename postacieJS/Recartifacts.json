@@ -1301,9 +1301,25 @@
       "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: After casting an Elemental Skill, if the character has ≥15 Energy, consumes 15 Energy to gain +50% ATK for 10s."
     }
   ]
+},
+{
+  "name": "Navia",
+  "artifacts": [
+    {
+      "artifactName": "Nighttime Whispers in the Echoing Woods",
+      "image": "/img/artefakty/NighttimeWhispersInTheEchoingWoods.png",
+      "link": "artifacts.html#NighttimeWhispersInTheEchoingWoods",
+      "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4‑piece: After using an Elemental Skill, gain a 20% Geo DMG Bonus for 10s. While under a shield granted by a Crystallize reaction, this effect is increased by 150%, and this additional increase disappears 1s after the shield is lost."
+    },
+    {
+      "artifactName": "Marechaussee Hunter",
+      "image": "/img/artefakty/MarechausseeHunter.png",
+      "link": "artifacts.html#MarechausseeHunter",
+      "describe": "Max Rarity: 5 | 2-piece: Normal and Charged Attack DMG +15%. | 4‑piece: When current HP increases or decreases, CRIT Rate is increased by 12% for 5s. Max 3 stacks."
+    }
+  ]
 }
 
- 
 
 ]}
 
