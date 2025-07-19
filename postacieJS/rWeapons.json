@@ -624,7 +624,18 @@
       "description": "A polearm of mythic stature. When protected by a shield, the wielder’s ATK increases, and on hitting opponents, the strength of the shield is further bolstered.",
       "link": "Bronie.html#VortexVanquisher"
     }
+  ],
+  
+  "Skirk": [
+    {
+      "name": "Azurelight",
+      "image": "/img/bronieZdj/Azurelight.png",
+      "description": "Max Rarity: 5 | Base ATK: 674 | Secondary Stat: CRIT Rate 22.1% | Weapon Skill “White Mountain’s Bounty”: Within 12 s after using an Elemental Skill, ATK is increased by 24%; during this time, if the wielder has 0 Energy, ATK is further increased by 24% and CRIT DMG by 40%.",
+      "link": "Bronie.html#Azurelight"
+    }
   ]
+
+
 }
 
 

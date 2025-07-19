@@ -1318,7 +1318,25 @@
       "describe": "Max Rarity: 5 | 2-piece: Normal and Charged Attack DMG +15%. | 4‑piece: When current HP increases or decreases, CRIT Rate is increased by 12% for 5s. Max 3 stacks."
     }
   ]
+},
+{
+  "name": "Skirk",
+  "artifacts": [
+    {
+      "artifactName": "Finale of the Deep Galleries",
+      "image": "/img/artefakty/FinaleOfTheDeepGalleries.png",
+      "link": "artifacts.html#FinaleOfTheDeepGalleries",
+      "describe": "Max Rarity: 4 | 2-piece: Cryo DMG Bonus +15%. | 4-piece: When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After dealing Normal Attack DMG, the Burst effect stops applying for 6 s; after dealing Burst DMG, the Normal Attack effect stops applying for 6 s. This effect can trigger even if the equipping character is off the field."
+    },
+    {
+      "artifactName": "Marechaussee Hunter",
+      "image": "/img/artefakty/MarechausseeHunter.png",
+      "link": "artifacts.html#MarechausseeHunter",
+      "describe": "Max Rarity: 5 | 2-piece: Normal and Charged Attack DMG +15%. | 4-piece: When current HP increases or decreases, CRIT Rate is increased by 12% for 5 s. Max 3 stacks."
+    }
+  ]
 }
+
 
 
 ]}
