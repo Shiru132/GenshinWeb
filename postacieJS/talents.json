@@ -3399,38 +3399,38 @@
     }
   },
   {
-    "character": "Shogun",
+    "character": "Mavuika",
     "talents": {
       "normalAttack": {
-        "name": "Rain of Stone",
-        "icon": "/img/talents/zhongli_attack.png",
-        "description": "Normal Attack\nPerforms up to 6 consecutive spear strikes. Charged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way. Plunging Attack\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
+        "name": "Flames Weave Life",
+        "icon": "/img/talents/mavuika_attack.png",
+        "description": "Normal AttackPerforms up to 4 consecutive claymore strikes. Charged Attack Consumes a certain amount of Stamina to perform an especially powerful Severing Splendor strike toward the front. Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact."
       },
       "elementalSkill": {
-        "name": "Dominus Lapidis",
-        "icon": "/img/talents/zhongli_skill.png",
-        "description": "Press\nCommands the omnipresent power of earth to solidify into a Stone Stele, dealing AoE Geo DMG. Additionally, the Stone Stele will resonate with other Geo Constructs in the vicinity, dealing Geo DMG to surrounding enemies. The Stone Stele is considered a Geo Construct, and can both be climbed and used to block attacks."
+        "name": "The Named Moment",
+        "icon": "/img/talents/mavuika_skill.png",
+        "description": "Calling upon her authority over conflict, Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned Pyro DMGAfter using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state."
       },
       "elementalBurst": {
-        "name": "Planet Befall",
-        "icon": "/img/talents/zhongli_burst.png",
-        "description": "Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them. Petrification\nOpponents affected by the Petrification status cannot move."
+        "name": "Hour of Burning Skies",
+        "icon": "/img/talents/mavuika_burst.png",
+        "description": "When Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst."
       },
       "passiveTalents": [
         {
-          "name": "Resonant Waves",
-          "icon": "/img/talents/zhongli_passive1.png",
-          "description": "When the Jade Shield takes DMG, it will Fortify:\n\nFortified characters have 5% increased Shield Strength. Can stack up to 5 times, and lasts until the Jade Shield dissapears."
+          "name": "Gift of Flaming Flowers",
+          "icon": "/img/talents/mavuika_passive1.png",
+          "description": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 30% for 10s."
         },
         {
-          "name": "Dominance of Earth",
-          "icon": "/img/talents/zhongli_passive2.png",
-          "description": "Zhongli deals bonus DMG based on his Max HP:\nNormal Attack, Charged Attack, and Plunging Attack DMG is increased by 1. 39% of Max HP. Dominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1."
+          "name": "Kiongozi",
+          "icon": "/img/talents/mavuika_passive2.png",
+          "description": "After using her Elemental Burst, Hour of Burning Skies, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.2%. The maximum increase obtainable this way is 40%, and this effect lasts 20s, decaying over this duration until it reaches 0."
         },
         {
-          "name": "Arcanum of Crystal",
-          "icon": "/img/talents/zhongli_passive3.png",
-          "description": "Refunds 15% of the ores used when crafting Polearm-type weapons."
+          "name": "Exhaust Mode",
+          "icon": "/img/talents/mavuika_passive3.png",
+          "description": "After Nightsoul points have been fully depleted, Mavuika will switch to using Phlogiston to maintain the All-Fire Armaments' Flamestrider form."
         }
       ]
     }
