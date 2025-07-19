@@ -1,57 +1,24 @@
-const characters = [
-  { name: "Neuvillette", image: "/img/zdj/neuvillette.png", element: "hydro", link: "neuvillette.html" },
-  { name: "Clorinde",   image: "/img/zdj/clorinde.png",   element: "electro", link: "clorinde.html" },
-  { name: "Furina",     image: "/img/zdj/furina.png",     element: "hydro", link: "furina.html" },
-  { name: "Arlecchino", image: "/img/zdj/arlecchino.png", element: "pyro", link: "arlecchino.html" },
-  { name: "Mona",       image: "/img/zdj/mona.png",       element: "hydro", link: "mona.html" },
-  { name: "Navia",      image: "/img/zdj/navia.png",      element: "geo", link: "navia.html" },
-  { name: "Shogun",     image: "/img/zdj/shogun.png",     element: "electro", link: "shogun.html" },
-  { name: "Yae Miko",   image: "/img/zdj/yae-miko.png",   element: "electro", link: "yae-miko.html" },
-  { name: "Kazuha",     image: "/img/zdj/kazuha.png",     element: "anemo", link: "kazuha.html" },
-  { name: "Diluc",      image: "/img/zdj/diluc.png",      element: "pyro", link: "diluc.html" },
-  { name: "Jean",       image: "/img/zdj/jean.png",       element: "anemo", link: "jean.html" },
-  { name: "Yelan",      image: "/img/zdj/yelan.png",      element: "hydro", link: "yelan.html" },
-  { name: "Nahida",     image: "/img/zdj/nahida.png",     element: "dendro", link: "nahida.html" },
-  { name: "Keqing",     image: "/img/zdj/keqing.png",     element: "electro", link: "keqing.html" },
-  { name: "Alhaitham",  image: "/img/zdj/alhaitham.png",  element: "dendro", link: "alhaitham.html" },
-  { name: "Chasca",     image: "/img/zdj/chasca.png",     element: "anemo", link: "chasca.html" },
-  { name: "Citlali",    image: "/img/zdj/citlali.png",    element: "cryo", link: "citlali.html" },
-  { name: "Hu Tao",     image: "/img/zdj/hu-tao.png",     element: "pyro", link: "hu-tao.html" },
-  { name: "Kinich",     image: "/img/zdj/kinich.png",     element: "dendro", link: "kinich.html" },
-  { name: "Mualani",    image: "/img/zdj/mualani.png",    element: "hydro", link: "mualani.html" },
-  { name: "Shenhe",     image: "/img/zdj/shenhe.png",     element: "cryo", link: "shenhe.html" },
-  { name: "Wriothesley",image: "/img/zdj/wriothesley.png",element: "cryo", link: "wriothesley.html" },
-  { name: "Xiangling",  image: "/img/zdj/xiangling.png",  element: "pyro", link: "xiangling.html" },
-  { name: "Xilonen",    image: "/img/zdj/xilonen.png",    element: "geo", link: "xilonen.html" },
-  { name: "Zhongli",    image: "/img/zdj/zhongli.png",    element: "geo", link: "zhongli.html" },
-  { name: "Lyney",      image: "/img/zdj/lyney.png",      element: "pyro", link: "lyney.html" },
-  { name: "Ganyu",      image: "/img/zdj/ganyu.png",      element: "cryo", link: "ganyu.html" },
-  { name: "Eula",       image: "/img/zdj/eula.png",       element: "cryo", link: "eula.html" },
-  { name: "Emilie",     image: "/img/zdj/emilie.png",     element: "dendro", link: "emilie.html" },
-  { name: "Bennett",    image: "/img/zdj/bennett.png",    element: "pyro", link: "bennett.html" },
-  { name: "Nilou",      image: "/img/zdj/nilou.png",      element: "hydro", link: "nilou.html" },
-  { name: "Tighnari",   image: "/img/zdj/tighnari.png",   element: "dendro", link: "tighnari.html" }
-];
+// Pobieranie danych z pliku JSON
+let characters = [];
 
- 
-    const characterGallery = document.getElementById("gallery");
+// Elementy DOM
+const characterGallery = document.getElementById("gallery");
 const filter           = document.querySelector(".filter-select");
 const searchInput      = document.querySelector(".search-input");
 
-// 2. Rendering
+// Funkcja renderująca galerie
 function renderGallery(list) {
   characterGallery.innerHTML = "";
   list.forEach((char, idx) => {
     const li = document.createElement("li");
     li.className = "character-card";
-    
-
-    li.id        = char.element;
+    li.id = char.element;
     li.classList.add(`element-${char.element}`);
 
-    const link    = document.createElement("a");
-    link.href     = char.link;
-    const img     = document.createElement("img");
+    const link = document.createElement("a");
+    link.href  = char.link;
+
+    const img = document.createElement("img");
     img.src       = char.image;
     img.alt       = char.name;
     img.className = "character-image";
@@ -59,24 +26,19 @@ function renderGallery(list) {
     const nameDiv      = document.createElement("div");
     nameDiv.className  = "character-name";
     nameDiv.textContent = char.name;
-    
-  img.addEventListener('load', () => {
-    extractThemeColor(img, ({ r, g, b, css }) => {
-     //colored cards by element
-      li.style.setProperty('--theme-color', css);
-      
-      li.style.setProperty('--theme-color-rgb', `${r},${g},${b}`);
+
+    img.addEventListener('load', () => {
+      extractThemeColor(img, ({ r, g, b, css }) => {
+        li.style.setProperty('--theme-color', css);
+        li.style.setProperty('--theme-color-rgb', `${r},${g},${b}`);
+      });
     });
-  });
 
     link.append(img, nameDiv);
     li.append(link);
     characterGallery.append(li);
 
-    // falowe pojawianie
-    setTimeout(() => {
-      li.classList.add("show");
-    }, idx * 150);
+    setTimeout(() => li.classList.add("show"), idx * 150);
   });
 }
 
@@ -259,6 +221,18 @@ const debounced = debounce(fullFilter, 200);
 searchInput.addEventListener('input', debounced);
 
 filter.addEventListener('change', fullFilter);
+
+// --- Inicjalizacja: pobranie i wyrenderowanie postaci ---
+fetch('galleryCharacters.json')
+  .then(res => res.json())
+  .then(data => {
+    characters = data.characters;
+    // posortuj alfabetycznie i wyrenderuj
+    const sorted = [...characters].sort((a, b) => a.name.localeCompare(b.name));
+    renderGallery(sorted);
+  })
+  .catch(err => console.error('Błąd wczytywania postaci:', err));
+
 
 
 
