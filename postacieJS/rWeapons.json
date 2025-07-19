@@ -1,10 +1,10 @@
 {
   "Arlecchino": [
     {
-      "name": "Tome of the Eternal Flow",
-      "image": "/img/bronieZdj/Neuviwepsig.png",
-      "description": "Neuvillette's signature weapon providing CRIT DMG and HP% boosts.",
-      "link": "Bronie.html#TomeoftheEternalFlow"
+      "name": "Crimson Moon's Semblance",
+      "image": "/img/bronieZdj/CrimsonMoon'sSemblance.png",
+      "description": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 12% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 24% DMG Bonus.",
+      "link": "Bronie.html#CrimsonMoon'sSemblance"
     }
   ],
   "Diluc": [
