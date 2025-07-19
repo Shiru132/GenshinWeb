@@ -4,559 +4,559 @@
       "name": "Albedo",
       "image": "/img/zdj/albedo.png",
       "element": "geo",
-      "link": "albedo.html"
+      "link": "characters/albedo.html"
     },
     {
       "name": "Alhaitham",
       "image": "/img/zdj/alhaitham.png",
       "element": "dendro",
-      "link": "alhaitham.html"
+      "link": "characters/alhaitham.html"
     },
     {
       "name": "Amber",
       "image": "/img/zdj/amber.png",
       "element": "pyro",
-      "link": "amber.html"
+      "link": "characters/amber.html"
     },
     {
       "name": "Arataki Itto",
       "image": "/img/zdj/arataki-itto.png",
       "element": "geo",
-      "link": "arataki-itto.html"
+      "link": "characters/arataki-itto.html"
     },
     {
       "name": "Arlecchino",
       "image": "/img/zdj/arlecchino.png",
       "element": "pyro",
-      "link": "arlecchino.html"
+      "link": "characters/arlecchino.html"
     },
     {
       "name": "Baizhu",
       "image": "/img/zdj/baizhu.png",
       "element": "dendro",
-      "link": "baizhu.html"
+      "link": "characters/baizhu.html"
     },
     {
       "name": "Barbara",
       "image": "/img/zdj/barbara.png",
       "element": "hydro",
-      "link": "barbara.html"
+      "link": "characters/barbara.html"
     },
     {
       "name": "Beidou",
       "image": "/img/zdj/beidou.png",
       "element": "electro",
-      "link": "beidou.html"
+      "link": "characters/beidou.html"
     },
     {
       "name": "Bennett",
       "image": "/img/zdj/bennett.png",
       "element": "pyro",
-      "link": "bennett.html"
+      "link": "characters/bennett.html"
     },
     {
       "name": "Candace",
       "image": "/img/zdj/candace.png",
       "element": "hydro",
-      "link": "candace.html"
+      "link": "characters/candace.html"
     },
     {
       "name": "Charlotte",
       "image": "/img/zdj/charlotte.png",
       "element": "cryo",
-      "link": "charlotte.html"
+      "link": "characters/charlotte.html"
     },
     {
       "name": "Chasca",
       "image": "/img/zdj/chasca.png",
       "element": "anemo",
-      "link": "chasca.html"
+      "link": "characters/chasca.html"
     },
     {
       "name": "Chevreuse",
       "image": "/img/zdj/chevreuse.png",
       "element": "pyro",
-      "link": "chevreuse.html"
+      "link": "characters/chevreuse.html"
     },
     {
       "name": "Chiori",
       "image": "/img/zdj/chiori.png",
       "element": "geo",
-      "link": "chiori.html"
+      "link": "characters/chiori.html"
     },
     {
       "name": "Chongyun",
       "image": "/img/zdj/chongyun.png",
       "element": "cryo",
-      "link": "chongyun.html"
+      "link": "characters/chongyun.html"
     },
     {
       "name": "Citlali",
       "image": "/img/zdj/citlali.png",
       "element": "cryo",
-      "link": "citlali.html"
+      "link": "characters/citlali.html"
     },
     {
       "name": "Clorinde",
       "image": "/img/zdj/clorinde.png",
       "element": "electro",
-      "link": "clorinde.html"
+      "link": "characters/clorinde.html"
     },
     {
       "name": "Collei",
       "image": "/img/zdj/collei.png",
       "element": "dendro",
-      "link": "collei.html"
+      "link": "characters/collei.html"
     },
     {
       "name": "Cyno",
       "image": "/img/zdj/cyno.png",
       "element": "electro",
-      "link": "cyno.html"
+      "link": "characters/cyno.html"
     },
     {
       "name": "Dehya",
       "image": "/img/zdj/dehya.png",
       "element": "pyro",
-      "link": "dehya.html"
+      "link": "characters/dehya.html"
     },
     {
       "name": "Diluc",
       "image": "/img/zdj/diluc.png",
       "element": "pyro",
-      "link": "diluc.html"
+      "link": "characters/diluc.html"
     },
     {
       "name": "Diona",
       "image": "/img/zdj/diona.png",
       "element": "cryo",
-      "link": "diona.html"
+      "link": "characters/diona.html"
     },
     {
       "name": "Dori",
       "image": "/img/zdj/dori.png",
       "element": "electro",
-      "link": "dori.html"
+      "link": "characters/dori.html"
     },
     {
       "name": "Emilie",
       "image": "/img/zdj/emilie.png",
       "element": "dendro",
-      "link": "emilie.html"
+      "link": "characters/emilie.html"
     },
     {
       "name": "Eula",
       "image": "/img/zdj/eula.png",
       "element": "cryo",
-      "link": "eula.html"
+      "link": "characters/eula.html"
     },
     {
       "name": "Faruzan",
       "image": "/img/zdj/faruzan.png",
       "element": "anemo",
-      "link": "faruzan.html"
+      "link": "characters/faruzan.html"
     },
     {
       "name": "Fischl",
       "image": "/img/zdj/fischl.png",
       "element": "electro",
-      "link": "fischl.html"
+      "link": "characters/fischl.html"
     },
     {
       "name": "Freminet",
       "image": "/img/zdj/freminet.png",
       "element": "dendro",
-      "link": "freminet.html"
+      "link": "characters/freminet.html"
     },
     {
       "name": "Furina",
       "image": "/img/zdj/furina.png",
       "element": "hydro",
-      "link": "furina.html"
+      "link": "characters/furina.html"
     },
     {
       "name": "Ganyu",
       "image": "/img/zdj/ganyu.png",
       "element": "cryo",
-      "link": "ganyu.html"
+      "link": "characters/ganyu.html"
     },
     {
       "name": "Gorou",
       "image": "/img/zdj/gorou.png",
       "element": "geo",
-      "link": "gorou.html"
+      "link": "characters/gorou.html"
     },
     {
       "name": "Hu Tao",
       "image": "/img/zdj/hu-tao.png",
       "element": "pyro",
-      "link": "hu-tao.html"
+      "link": "characters/hu-tao.html"
     },
     {
       "name": "Jean",
       "image": "/img/zdj/jean.png",
       "element": "anemo",
-      "link": "jean.html"
+      "link": "characters/jean.html"
     },
     {
       "name": "Kaedehara Kazuha",
       "image": "/img/zdj/kaedehara-kazuha.png",
       "element": "anemo",
-      "link": "kaedehara-kazuha.html"
+      "link": "characters/kaedehara-kazuha.html"
     },
     {
       "name": "Kaeya",
       "image": "/img/zdj/kaeya.png",
       "element": "cryo",
-      "link": "kaeya.html"
+      "link": "characters/kaeya.html"
     },
     {
       "name": "Kamisato Ayaka",
       "image": "/img/zdj/kamisato-ayaka.png",
       "element": "cryo",
-      "link": "kamisato-ayaka.html"
+      "link": "characters/kamisato-ayaka.html"
     },
     {
       "name": "Kamisato Ayato",
       "image": "/img/zdj/kamisato-ayato.png",
       "element": "hydro",
-      "link": "kamisato-ayato.html"
+      "link": "characters/kamisato-ayato.html"
     },
     {
       "name": "Kaveh",
       "image": "/img/zdj/kaveh.png",
       "element": "dendro",
-      "link": "kaveh.html"
+      "link": "characters/kaveh.html"
     },
     {
       "name": "Keqing",
       "image": "/img/zdj/keqing.png",
       "element": "electro",
-      "link": "keqing.html"
+      "link": "characters/keqing.html"
     },
     {
       "name": "Kinich",
       "image": "/img/zdj/kinich.png",
       "element": "dendro",
-      "link": "kinich.html"
+      "link": "characters/kinich.html"
     },
     {
       "name": "Kirara",
       "image": "/img/zdj/kirara.png",
       "element": "dendro",
-      "link": "kirara.html"
+      "link": "characters/kirara.html"
     },
     {
       "name": "Klee",
       "image": "/img/zdj/klee.png",
       "element": "pyro",
-      "link": "klee.html"
+      "link": "characters/klee.html"
     },
     {
       "name": "Kujou Sara",
       "image": "/img/zdj/kujou-sara.png",
       "element": "electro",
-      "link": "kujou-sara.html"
+      "link": "characters/kujou-sara.html"
     },
     {
       "name": "Kuki Shinobu",
       "image": "/img/zdj/kuki-shinobu.png",
       "element": "electro",
-      "link": "kuki-shinobu.html"
+      "link": "characters/kuki-shinobu.html"
     },
     {
       "name": "Lan Yan",
       "image": "/img/zdj/lan-yan.png",
       "element": "hydro",
-      "link": "lan-yan.html"
+      "link": "characters/lan-yan.html"
     },
     {
       "name": "Layla",
       "image": "/img/zdj/layla.png",
       "element": "cryo",
-      "link": "layla.html"
+      "link": "characters/layla.html"
     },
     {
       "name": "Lisa",
       "image": "/img/zdj/lisa.png",
       "element": "electro",
-      "link": "lisa.html"
+      "link": "characters/lisa.html"
     },
     {
       "name": "Lynette",
       "image": "/img/zdj/lynette.png",
       "element": "hydro",
-      "link": "lynette.html"
+      "link": "characters/lynette.html"
     },
     {
       "name": "Lyney",
       "image": "/img/zdj/lyney.png",
       "element": "pyro",
-      "link": "lyney.html"
+      "link": "characters/lyney.html"
     },
     {
       "name": "Mavuika",
       "image": "/img/zdj/mavuika.png",
       "element": "pyro",
-      "link": "mavuika.html"
+      "link": "characters/mavuika.html"
     },
     {
       "name": "Mika",
       "image": "/img/zdj/mika.png",
       "element": "hydro",
-      "link": "mika.html"
+      "link": "characters/mika.html"
     },
     {
       "name": "Mona",
       "image": "/img/zdj/mona.png",
       "element": "hydro",
-      "link": "mona.html"
+      "link": "characters/mona.html"
     },
     {
       "name": "Mualani",
       "image": "/img/zdj/mualani.png",
       "element": "hydro",
-      "link": "mualani.html"
+      "link": "characters/mualani.html"
     },
     {
       "name": "Nahida",
       "image": "/img/zdj/nahida.png",
       "element": "dendro",
-      "link": "nahida.html"
+      "link": "characters/nahida.html"
     },
     {
       "name": "Navia",
       "image": "/img/zdj/navia.png",
       "element": "geo",
-      "link": "navia.html"
+      "link": "characters/navia.html"
     },
     {
       "name": "Neuvillette",
       "image": "/img/zdj/neuvillette.png",
       "element": "hydro",
-      "link": "neuvillette.html"
+      "link": "characters/neuvillette.html"
     },
     {
       "name": "Nilou",
       "image": "/img/zdj/nilou.png",
       "element": "hydro",
-      "link": "nilou.html"
+      "link": "characters/nilou.html"
     },
     {
       "name": "Ningguang",
       "image": "/img/zdj/ningguang.png",
       "element": "geo",
-      "link": "ningguang.html"
+      "link": "characters/ningguang.html"
     },
     {
       "name": "Noelle",
       "image": "/img/zdj/noelle.png",
       "element": "geo",
-      "link": "noelle.html"
+      "link": "characters/noelle.html"
     },
     {
       "name": "Ororon",
       "image": "/img/zdj/ororon.png",
       "element": "electro",
-      "link": "ororon.html"
+      "link": "characters/ororon.html"
     },
     {
       "name": "Qiqi",
       "image": "/img/zdj/qiqi.png",
       "element": "cryo",
-      "link": "qiqi.html"
+      "link": "characters/qiqi.html"
     },
     {
       "name": "Shogun",
       "image": "/img/zdj/shogun.png",
       "element": "electro",
-      "link": "raiden-shogun.html"
+      "link": "characters/raiden-shogun.html"
     },
     {
       "name": "Razor",
       "image": "/img/zdj/razor.png",
       "element": "electro",
-      "link": "razor.html"
+      "link": "characters/razor.html"
     },
     {
       "name": "Rosaria",
       "image": "/img/zdj/rosaria.png",
       "element": "cryo",
-      "link": "rosaria.html"
+      "link": "characters/rosaria.html"
     },
     {
       "name": "Sangonomiya Kokomi",
       "image": "/img/zdj/sangonomiya-kokomi.png",
       "element": "hydro",
-      "link": "sangonomiya-kokomi.html"
+      "link": "characters/sangonomiya-kokomi.html"
     },
     {
       "name": "Sayu",
       "image": "/img/zdj/sayu.png",
       "element": "anemo",
-      "link": "sayu.html"
+      "link": "characters/sayu.html"
     },
     {
       "name": "Sethos",
       "image": "/img/zdj/sethos.png",
       "element": "dendro",
-      "link": "sethos.html"
+      "link": "characters/sethos.html"
     },
     {
       "name": "Shenhe",
       "image": "/img/zdj/shenhe.png",
       "element": "cryo",
-      "link": "shenhe.html"
+      "link": "characters/shenhe.html"
     },
     {
       "name": "Shikanoin Heizou",
       "image": "/img/zdj/shikanoin-heizou.png",
       "element": "anemo",
-      "link": "shikanoin-heizou.html"
+      "link": "characters/shikanoin-heizou.html"
     },
     {
       "name": "Sigewinne",
       "image": "/img/zdj/sigewinne.png",
       "element": "hydro",
-      "link": "sigewinne.html"
+      "link": "characters/sigewinne.html"
     },
     {
       "name": "Skirk",
       "image": "/img/zdj/skirk.png",
       "element": "cryo",
-      "link": "skirk.html"
+      "link": "characters/skirk.html"
     },
     {
       "name": "Sucrose",
       "image": "/img/zdj/sucrose.png",
       "element": "anemo",
-      "link": "sucrose.html"
+      "link": "characters/sucrose.html"
     },
     {
       "name": "Tartaglia",
       "image": "/img/zdj/tartaglia.png",
       "element": "hydro",
-      "link": "tartaglia.html"
+      "link": "characters/tartaglia.html"
     },
     {
       "name": "Thoma",
       "image": "/img/zdj/thoma.png",
       "element": "pyro",
-      "link": "thoma.html"
+      "link": "characters/thoma.html"
     },
     {
       "name": "Tighnari",
       "image": "/img/zdj/tighnari.png",
       "element": "dendro",
-      "link": "tighnari.html"
+      "link": "characters/tighnari.html"
     },
     {
       "name": "Varesa",
       "image": "/img/zdj/varesa.png",
       "element": "electro",
-      "link": "varesa.html"
+      "link": "characters/varesa.html"
     },
     {
       "name": "Venti",
       "image": "/img/zdj/venti.png",
       "element": "anemo",
-      "link": "venti.html"
+      "link": "characters/venti.html"
     },
     {
       "name": "Wanderer",
       "image": "/img/zdj/wanderer.png",
       "element": "anemo",
-      "link": "wanderer.html"
+      "link": "characters/wanderer.html"
     },
     {
       "name": "Wriothesley",
       "image": "/img/zdj/wriothesley.png",
       "element": "cryo",
-      "link": "wriothesley.html"
+      "link": "characters/wriothesley.html"
     },
     {
       "name": "Xiangling",
       "image": "/img/zdj/xiangling.png",
       "element": "pyro",
-      "link": "xiangling.html"
+      "link": "characters/xiangling.html"
     },
     {
       "name": "Xianyun",
       "image": "/img/zdj/xianyun.png",
       "element": "anemo",
-      "link": "xianyun.html"
+      "link": "characters/xianyun.html"
     },
     {
       "name": "Xiao",
       "image": "/img/zdj/xiao.png",
       "element": "anemo",
-      "link": "xiao.html"
+      "link": "characters/xiao.html"
     },
     {
       "name": "Xilonen",
       "image": "/img/zdj/xilonen.png",
       "element": "geo",
-      "link": "xilonen.html"
+      "link": "characters/xilonen.html"
     },
     {
       "name": "Xingqiu",
       "image": "/img/zdj/xingqiu.png",
       "element": "hydro",
-      "link": "xingqiu.html"
+      "link": "characters/xingqiu.html"
     },
     {
       "name": "Xinyan",
       "image": "/img/zdj/xinyan.png",
       "element": "pyro",
-      "link": "xinyan.html"
+      "link": "characters/xinyan.html"
     },
     {
       "name": "Yae-miko",
       "image": "/img/zdj/yae-miko.png",
       "element": "electro",
-      "link": "yae-miko.html"
+      "link": "characters/yae-miko.html"
     },
     {
       "name": "Yanfei",
       "image": "/img/zdj/yanfei.png",
       "element": "pyro",
-      "link": "yanfei.html"
+      "link": "characters/yanfei.html"
     },
     {
       "name": "Yaoyao",
       "image": "/img/zdj/yaoyao.png",
       "element": "dendro",
-      "link": "yaoyao.html"
+      "link": "characters/yaoyao.html"
     },
     {
       "name": "Yelan",
       "image": "/img/zdj/yelan.png",
       "element": "hydro",
-      "link": "yelan.html"
+      "link": "characters/yelan.html"
     },
     {
       "name": "Yoimiya",
       "image": "/img/zdj/yoimiya.png",
       "element": "pyro",
-      "link": "yoimiya.html"
+      "link": "characters/yoimiya.html"
     },
     {
       "name": "Yumemizuki Mizuki",
       "image": "/img/zdj/yumemizuki-mizuki.png",
       "element": "anemo",
-      "link": "yumemizuki-mizuki.html"
+      "link": "characters/yumemizuki-mizuki.html"
     },
     {
       "name": "Yun Jin",
       "image": "/img/zdj/yun-jin.png",
       "element": "geo",
-      "link": "yun-jin.html"
+      "link": "characters/yun-jin.html"
     },
     {
       "name": "Zhongli",
       "image": "/img/zdj/zhongli.png",
       "element": "geo",
-      "link": "zhongli.html"
+      "link": "characters/zhongli.html"
     }
   ]
 }
