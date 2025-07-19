@@ -24,24 +24,33 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ————— derive current character from URL —————
-const slug = window.location.pathname
-  .split('/')
-  .pop()
-  .replace('.html','');
-const currentCharacter = slug.charAt(0).toUpperCase() + slug.slice(1);
-
 // ————— Weapons rendering —————
-fetch('/postacieJS/weapons.json')
+fetch('/postacieJS/rWeapons.json')
   .then(resp => {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     return resp.json();
   })
-  .then(data => renderWeapons(data.weapon))
+  .then(data => {
+  
+    const weaponsForThisChar = data[currentCharacter];
+
+    if (!weaponsForThisChar) {
+      console.warn(`Nie znaleziono rekomendacji dla ${currentCharacter}`);
+      return;
+    }
+
+   
+    renderWeapons(weaponsForThisChar);
+  })
   .catch(err => console.error('Error fetching weapons:', err));
 
+// ————— renderWeapons —————
 function renderWeapons(items) {
   const weaponsList = document.querySelector('ul.weapon-list');
-  if (!weaponsList) return console.error('Missing ul.weapon-list in DOM');
+  if (!weaponsList) {
+    return console.error('Missing <ul class="weapon-list"> in DOM');
+  }
+
   weaponsList.innerHTML = '';
 
   items.forEach((item, idx) => {
@@ -51,18 +60,20 @@ function renderWeapons(items) {
 
     const img = document.createElement('img');
     img.src   = item.image;
-    img.alt   = item.name || item.weaponName;
+    img.alt   = item.name;
 
     const h4 = document.createElement('h4');
-    h4.textContent = item.name || item.weaponName;
+    h4.textContent = item.name;
 
     const p = document.createElement('p');
-    p.textContent = item.describe;
+    
+    p.textContent = item.description;
 
     link.append(img);
     li.append(link, h4, p);
     weaponsList.appendChild(li);
 
+   
     setTimeout(() => li.classList.add('show'), idx * 150);
   });
 }
