@@ -1,0 +1,82 @@
+{
+  "Arlecchino": [
+    {
+      "name": "Tome of the Eternal Flow",
+      "image": "/img/bronieZdj/Neuviwepsig.png",
+      "description": "Neuvillette's signature weapon providing CRIT DMG and HP% boosts.",
+      "link": "Bronie.html#TomeoftheEternalFlow"
+    }
+  ],
+  "Diluc": [
+    {
+      "name": "Wolf's Gravestone",
+      "image": "/img/bronieZdj/WolfsGravestone.png",
+      "description": "Zwiększa ATK i ATK% dla posiadacza, idealna dla Pyro DPS.",
+      "link": "Bronie.html#WolfsGravestone"
+    }
+  ],
+  "Ganyu": [
+    {
+      "name": "Amos' Bow",
+      "image": "/img/bronieZdj/AmosBow.png",
+      "description": "Zwiększa DMG strzałów na dużą odległość i crit rate.",
+      "link": "Bronie.html#AmosBow"
+    }
+  ],
+  "Venti": [
+    {
+      "name": "Elegy for the End",
+      "image": "/img/bronieZdj/ElegyForTheEnd.png",
+      "description": "Zwiększa Energy Recharge i buffuje party po aktywacji umiejętności żywiołowej.",
+      "link": "Bronie.html#ElegyForTheEnd"
+    }
+  ],
+  "Klee": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "image": "/img/bronieZdj/LostPrayer.png",
+      "description": "Zwiększa Movement SPD i CRIT Rate co kilka sekund.",
+      "link": "Bronie.html#LostPrayertotheSacredWinds"
+    }
+  ],
+  "Bennett": [
+    {
+      "name": "The Black Sword",
+      "image": "/img/bronieZdj/TheBlackSword.png",
+      "description": "Zwiększa CRIT Rate i przywraca HP przy zadawaniu trafień krytycznych.",
+      "link": "Bronie.html#TheBlackSword"
+    }
+  ],
+  "Eula": [
+    {
+      "name": "Snow-Tombed Starsilver",
+      "image": "/img/bronieZdj/SnowTombedStarsilver.png",
+      "description": "Zwiększa Physical DMG i CRIT Rate, dodatkowy AoE Physical Burst.",
+      "link": "Bronie.html#SnowTombedStarsilver"
+    }
+  ],
+  "Zhongli": [
+    {
+      "name": "Vortex Vanquisher",
+      "image": "/img/bronieZdj/VortexVanquisher.png",
+      "description": "Zwiększa shield strength i ATK po aktywacji tarczy.",
+      "link": "Bronie.html#VortexVanquisher"
+    }
+  ],
+  "Hu Tao": [
+    {
+      "name": "Staff of Homa",
+      "image": "/img/bronieZdj/StaffofHoma.png",
+      "description": "Zwiększa CRIT DMG i wzmacnia Atk% przy niskim HP.",
+      "link": "Bronie.html#StaffofHoma"
+    }
+  ],
+  "Xiao": [
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "image": "/img/bronieZdj/PrimordialJadeWingedSpear.png",
+      "description": "Zwiększa ATK i dodatkowo wzmacnia DMG przy kolejnym ataku.",
+      "link": "Bronie.html#PrimordialJadeWingedSpear"
+    }
+  ]
+}
