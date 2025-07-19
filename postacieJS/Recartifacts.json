@@ -1284,7 +1284,25 @@
       "describe": "Max Rarity: 5 | 2-piece: Electro DMG +15%. | 4-piece: Increases Overload, Electro‑Charged, and Superconduct DMG by 40%."
     }
   ]
+},
+{
+  "name": "Hu Tao",
+  "artifacts": [
+    {
+      "artifactName": "Crimson Witch of Flames",
+      "image": "/img/artefakty/CrimsonWitchofFlames.png",
+      "link": "artifacts.html#CrimsonWitchOfFlames",
+      "describe": "Max Rarity: 5 | 2-piece: Pyro DMG Bonus +15%. | 4-piece: Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases 2-piece set effects by 50% for 10s (max 3 stacks)."
+    },
+    {
+      "artifactName": "Shimenawa's Reminiscence",
+      "image": "/img/artefakty/ShimenawasReminiscence.png",
+      "link": "artifacts.html#ShimenawasReminiscence",
+      "describe": "Max Rarity: 5 | 2-piece: ATK +18%. | 4-piece: After casting an Elemental Skill, if the character has ≥15 Energy, consumes 15 Energy to gain +50% ATK for 10s."
+    }
+  ]
 }
+
 
 
 ]}
