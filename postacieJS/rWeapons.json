@@ -600,6 +600,30 @@
       "description": "Let her eyes be dyed in burning smoke, so she will not be entranced by the colors they reflect. Let her ankles be blessed by a flint blade.",
       "link": "Bronie.html#StarcallersWatch"
     }
+  ],
+   "Kinich": [
+    {
+      "name": "Solaris’ Embrace",
+      "image": "/img/bronieZdj/SolarisEmbrace.png",
+      "description": "A radiantly forged blade said to capture the first light of dawn. Each swing releases a burst of searing light that scorches foes and bolsters the wielder’s resolve.",
+      "link": "Bronie.html#SolarisEmbrace"
+    }
+  ],
+  "Emilie": [
+    {
+      "name": "Ebonwing Censer",
+      "image": "/img/bronieZdj/EbonwingCenser.png",
+      "description": "A solemn polearm imbued with twilight’s hush. Its every strike exhales whispered prayers that grant a moment of calm focus and heightened precision.",
+      "link": "Bronie.html#EbonwingCenser"
+    }
+  ],
+  "Zhongli": [
+    {
+      "name": "Vortex Vanquisher",
+      "image": "/img/bronieZdj/VortexVanquisher.png",
+      "description": "A polearm of mythic stature. When protected by a shield, the wielder’s ATK increases, and on hitting opponents, the strength of the shield is further bolstered.",
+      "link": "Bronie.html#VortexVanquisher"
+    }
   ]
 }
 
