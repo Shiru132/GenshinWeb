@@ -1250,7 +1250,25 @@
         "describe": "Max Rarity: 5 | 2-piece: Elemental Burst DMG +20%. | 4-piece: Using an Elemental Burst increases all party members’ ATK by 20% for 12s."
       }
     ]
-  }
+  },
+  {
+  "name": "Furina",
+  "artifacts": [
+    {
+      "artifactName": "Ocean-Hued Clam",
+      "image": "/img/artefakty/OceanHuedClam.png",
+      "link": "artifacts.html#OceanHuedClam",
+      "describe": "Max Rarity: 5 | 2-piece: Healing Bonus +15%. | 4-piece: When Healing, gain a damage bonus equal to 20% of Healing for 10s."
+    },
+    {
+      "artifactName": "Heart of Depth",
+      "image": "/img/artefakty/HeartOfDepth.png",
+      "link": "artifacts.html#HeartOfDepth",
+      "describe": "Max Rarity: 5 | 2-piece: Hydro DMG +15%. | 4-piece: After using Elemental Skill, increases Normal and Charged Attack DMG by 30% for 15s."
+    }
+  ]
+}
+
 ]}
 
 
