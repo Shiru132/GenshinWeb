@@ -2,559 +2,559 @@
   "characters": [
     {
       "name": "Albedo",
-      "image": "/strona/zdj/albedo.png",
+      "image": "/img/zdj/albedo.png",
       "element": "geo",
       "link": "albedo.html"
     },
     {
       "name": "Alhaitham",
-      "image": "/strona/zdj/alhaitham.png",
+      "image": "/img/zdj/alhaitham.png",
       "element": "dendro",
       "link": "alhaitham.html"
     },
     {
       "name": "Amber",
-      "image": "/strona/zdj/amber.png",
+      "image": "/img/zdj/amber.png",
       "element": "pyro",
       "link": "amber.html"
     },
     {
       "name": "Arataki Itto",
-      "image": "/strona/zdj/arataki-itto.png",
+      "image": "/img/zdj/arataki-itto.png",
       "element": "geo",
       "link": "arataki-itto.html"
     },
     {
       "name": "Arlecchino",
-      "image": "/strona/zdj/arlecchino.png",
+      "image": "/img/zdj/arlecchino.png",
       "element": "pyro",
       "link": "arlecchino.html"
     },
     {
       "name": "Baizhu",
-      "image": "/strona/zdj/baizhu.png",
+      "image": "/img/zdj/baizhu.png",
       "element": "dendro",
       "link": "baizhu.html"
     },
     {
       "name": "Barbara",
-      "image": "/strona/zdj/barbara.png",
+      "image": "/img/zdj/barbara.png",
       "element": "hydro",
       "link": "barbara.html"
     },
     {
       "name": "Beidou",
-      "image": "/strona/zdj/beidou.png",
+      "image": "/img/zdj/beidou.png",
       "element": "electro",
       "link": "beidou.html"
     },
     {
       "name": "Bennett",
-      "image": "/strona/zdj/bennett.png",
+      "image": "/img/zdj/bennett.png",
       "element": "pyro",
       "link": "bennett.html"
     },
     {
       "name": "Candace",
-      "image": "/strona/zdj/candace.png",
+      "image": "/img/zdj/candace.png",
       "element": "hydro",
       "link": "candace.html"
     },
     {
       "name": "Charlotte",
-      "image": "/strona/zdj/charlotte.png",
+      "image": "/img/zdj/charlotte.png",
       "element": "cryo",
       "link": "charlotte.html"
     },
     {
       "name": "Chasca",
-      "image": "/strona/zdj/chasca.png",
+      "image": "/img/zdj/chasca.png",
       "element": "anemo",
       "link": "chasca.html"
     },
     {
       "name": "Chevreuse",
-      "image": "/strona/zdj/chevreuse.png",
+      "image": "/img/zdj/chevreuse.png",
       "element": "pyro",
       "link": "chevreuse.html"
     },
     {
       "name": "Chiori",
-      "image": "/strona/zdj/chiori.png",
+      "image": "/img/zdj/chiori.png",
       "element": "geo",
       "link": "chiori.html"
     },
     {
       "name": "Chongyun",
-      "image": "/strona/zdj/chongyun.png",
+      "image": "/img/zdj/chongyun.png",
       "element": "cryo",
       "link": "chongyun.html"
     },
     {
       "name": "Citlali",
-      "image": "/strona/zdj/citlali.png",
+      "image": "/img/zdj/citlali.png",
       "element": "cryo",
       "link": "citlali.html"
     },
     {
       "name": "Clorinde",
-      "image": "/strona/zdj/clorinde.png",
+      "image": "/img/zdj/clorinde.png",
       "element": "electro",
       "link": "clorinde.html"
     },
     {
       "name": "Collei",
-      "image": "/strona/zdj/collei.png",
+      "image": "/img/zdj/collei.png",
       "element": "dendro",
       "link": "collei.html"
     },
     {
       "name": "Cyno",
-      "image": "/strona/zdj/cyno.png",
+      "image": "/img/zdj/cyno.png",
       "element": "electro",
       "link": "cyno.html"
     },
     {
       "name": "Dehya",
-      "image": "/strona/zdj/dehya.png",
+      "image": "/img/zdj/dehya.png",
       "element": "pyro",
       "link": "dehya.html"
     },
     {
       "name": "Diluc",
-      "image": "/strona/zdj/diluc.png",
+      "image": "/img/zdj/diluc.png",
       "element": "pyro",
       "link": "diluc.html"
     },
     {
       "name": "Diona",
-      "image": "/strona/zdj/diona.png",
+      "image": "/img/zdj/diona.png",
       "element": "cryo",
       "link": "diona.html"
     },
     {
       "name": "Dori",
-      "image": "/strona/zdj/dori.png",
+      "image": "/img/zdj/dori.png",
       "element": "electro",
       "link": "dori.html"
     },
     {
       "name": "Emilie",
-      "image": "/strona/zdj/emilie.png",
+      "image": "/img/zdj/emilie.png",
       "element": "dendro",
       "link": "emilie.html"
     },
     {
       "name": "Eula",
-      "image": "/strona/zdj/eula.png",
+      "image": "/img/zdj/eula.png",
       "element": "cryo",
       "link": "eula.html"
     },
     {
       "name": "Faruzan",
-      "image": "/strona/zdj/faruzan.png",
+      "image": "/img/zdj/faruzan.png",
       "element": "anemo",
       "link": "faruzan.html"
     },
     {
       "name": "Fischl",
-      "image": "/strona/zdj/fischl.png",
+      "image": "/img/zdj/fischl.png",
       "element": "electro",
       "link": "fischl.html"
     },
     {
       "name": "Freminet",
-      "image": "/strona/zdj/freminet.png",
+      "image": "/img/zdj/freminet.png",
       "element": "dendro",
       "link": "freminet.html"
     },
     {
       "name": "Furina",
-      "image": "/strona/zdj/furina.png",
+      "image": "/img/zdj/furina.png",
       "element": "hydro",
       "link": "furina.html"
     },
     {
       "name": "Ganyu",
-      "image": "/strona/zdj/ganyu.png",
+      "image": "/img/zdj/ganyu.png",
       "element": "cryo",
       "link": "ganyu.html"
     },
     {
       "name": "Gorou",
-      "image": "/strona/zdj/gorou.png",
+      "image": "/img/zdj/gorou.png",
       "element": "geo",
       "link": "gorou.html"
     },
     {
       "name": "Hu Tao",
-      "image": "/strona/zdj/hu-tao.png",
+      "image": "/img/zdj/hu-tao.png",
       "element": "pyro",
       "link": "hu-tao.html"
     },
     {
       "name": "Jean",
-      "image": "/strona/zdj/jean.png",
+      "image": "/img/zdj/jean.png",
       "element": "anemo",
       "link": "jean.html"
     },
     {
       "name": "Kaedehara Kazuha",
-      "image": "/strona/zdj/kaedehara-kazuha.png",
+      "image": "/img/zdj/kaedehara-kazuha.png",
       "element": "anemo",
       "link": "kaedehara-kazuha.html"
     },
     {
       "name": "Kaeya",
-      "image": "/strona/zdj/kaeya.png",
+      "image": "/img/zdj/kaeya.png",
       "element": "cryo",
       "link": "kaeya.html"
     },
     {
       "name": "Kamisato Ayaka",
-      "image": "/strona/zdj/kamisato-ayaka.png",
+      "image": "/img/zdj/kamisato-ayaka.png",
       "element": "cryo",
       "link": "kamisato-ayaka.html"
     },
     {
       "name": "Kamisato Ayato",
-      "image": "/strona/zdj/kamisato-ayato.png",
+      "image": "/img/zdj/kamisato-ayato.png",
       "element": "hydro",
       "link": "kamisato-ayato.html"
     },
     {
       "name": "Kaveh",
-      "image": "/strona/zdj/kaveh.png",
+      "image": "/img/zdj/kaveh.png",
       "element": "dendro",
       "link": "kaveh.html"
     },
     {
       "name": "Keqing",
-      "image": "/strona/zdj/keqing.png",
+      "image": "/img/zdj/keqing.png",
       "element": "electro",
       "link": "keqing.html"
     },
     {
       "name": "Kinich",
-      "image": "/strona/zdj/kinich.png",
+      "image": "/img/zdj/kinich.png",
       "element": "dendro",
       "link": "kinich.html"
     },
     {
       "name": "Kirara",
-      "image": "/strona/zdj/kirara.png",
+      "image": "/img/zdj/kirara.png",
       "element": "dendro",
       "link": "kirara.html"
     },
     {
       "name": "Klee",
-      "image": "/strona/zdj/klee.png",
+      "image": "/img/zdj/klee.png",
       "element": "pyro",
       "link": "klee.html"
     },
     {
       "name": "Kujou Sara",
-      "image": "/strona/zdj/kujou-sara.png",
+      "image": "/img/zdj/kujou-sara.png",
       "element": "electro",
       "link": "kujou-sara.html"
     },
     {
       "name": "Kuki Shinobu",
-      "image": "/strona/zdj/kuki-shinobu.png",
+      "image": "/img/zdj/kuki-shinobu.png",
       "element": "electro",
       "link": "kuki-shinobu.html"
     },
     {
       "name": "Lan Yan",
-      "image": "/strona/zdj/lan-yan.png",
+      "image": "/img/zdj/lan-yan.png",
       "element": "hydro",
       "link": "lan-yan.html"
     },
     {
       "name": "Layla",
-      "image": "/strona/zdj/layla.png",
+      "image": "/img/zdj/layla.png",
       "element": "cryo",
       "link": "layla.html"
     },
     {
       "name": "Lisa",
-      "image": "/strona/zdj/lisa.png",
+      "image": "/img/zdj/lisa.png",
       "element": "electro",
       "link": "lisa.html"
     },
     {
       "name": "Lynette",
-      "image": "/strona/zdj/lynette.png",
+      "image": "/img/zdj/lynette.png",
       "element": "hydro",
       "link": "lynette.html"
     },
     {
       "name": "Lyney",
-      "image": "/strona/zdj/lyney.png",
+      "image": "/img/zdj/lyney.png",
       "element": "pyro",
       "link": "lyney.html"
     },
     {
       "name": "Mavuika",
-      "image": "/strona/zdj/mavuika.png",
+      "image": "/img/zdj/mavuika.png",
       "element": "pyro",
       "link": "mavuika.html"
     },
     {
       "name": "Mika",
-      "image": "/strona/zdj/mika.png",
+      "image": "/img/zdj/mika.png",
       "element": "hydro",
       "link": "mika.html"
     },
     {
       "name": "Mona",
-      "image": "/strona/zdj/mona.png",
+      "image": "/img/zdj/mona.png",
       "element": "hydro",
       "link": "mona.html"
     },
     {
       "name": "Mualani",
-      "image": "/strona/zdj/mualani.png",
+      "image": "/img/zdj/mualani.png",
       "element": "hydro",
       "link": "mualani.html"
     },
     {
       "name": "Nahida",
-      "image": "/strona/zdj/nahida.png",
+      "image": "/img/zdj/nahida.png",
       "element": "dendro",
       "link": "nahida.html"
     },
     {
       "name": "Navia",
-      "image": "/strona/zdj/navia.png",
+      "image": "/img/zdj/navia.png",
       "element": "geo",
       "link": "navia.html"
     },
     {
       "name": "Neuvillette",
-      "image": "/strona/zdj/neuvillette.png",
+      "image": "/img/zdj/neuvillette.png",
       "element": "hydro",
       "link": "neuvillette.html"
     },
     {
       "name": "Nilou",
-      "image": "/strona/zdj/nilou.png",
+      "image": "/img/zdj/nilou.png",
       "element": "hydro",
       "link": "nilou.html"
     },
     {
       "name": "Ningguang",
-      "image": "/strona/zdj/ningguang.png",
+      "image": "/img/zdj/ningguang.png",
       "element": "geo",
       "link": "ningguang.html"
     },
     {
       "name": "Noelle",
-      "image": "/strona/zdj/noelle.png",
+      "image": "/img/zdj/noelle.png",
       "element": "geo",
       "link": "noelle.html"
     },
     {
       "name": "Ororon",
-      "image": "/strona/zdj/ororon.png",
+      "image": "/img/zdj/ororon.png",
       "element": "electro",
       "link": "ororon.html"
     },
     {
       "name": "Qiqi",
-      "image": "/strona/zdj/qiqi.png",
+      "image": "/img/zdj/qiqi.png",
       "element": "cryo",
       "link": "qiqi.html"
     },
     {
       "name": "Shogun",
-      "image": "/strona/zdj/shogun.png",
+      "image": "/img/zdj/shogun.png",
       "element": "electro",
       "link": "raiden-shogun.html"
     },
     {
       "name": "Razor",
-      "image": "/strona/zdj/razor.png",
+      "image": "/img/zdj/razor.png",
       "element": "electro",
       "link": "razor.html"
     },
     {
       "name": "Rosaria",
-      "image": "/strona/zdj/rosaria.png",
+      "image": "/img/zdj/rosaria.png",
       "element": "cryo",
       "link": "rosaria.html"
     },
     {
       "name": "Sangonomiya Kokomi",
-      "image": "/strona/zdj/sangonomiya-kokomi.png",
+      "image": "/img/zdj/sangonomiya-kokomi.png",
       "element": "hydro",
       "link": "sangonomiya-kokomi.html"
     },
     {
       "name": "Sayu",
-      "image": "/strona/zdj/sayu.png",
+      "image": "/img/zdj/sayu.png",
       "element": "anemo",
       "link": "sayu.html"
     },
     {
       "name": "Sethos",
-      "image": "/strona/zdj/sethos.png",
+      "image": "/img/zdj/sethos.png",
       "element": "dendro",
       "link": "sethos.html"
     },
     {
       "name": "Shenhe",
-      "image": "/strona/zdj/shenhe.png",
+      "image": "/img/zdj/shenhe.png",
       "element": "cryo",
       "link": "shenhe.html"
     },
     {
       "name": "Shikanoin Heizou",
-      "image": "/strona/zdj/shikanoin-heizou.png",
+      "image": "/img/zdj/shikanoin-heizou.png",
       "element": "anemo",
       "link": "shikanoin-heizou.html"
     },
     {
       "name": "Sigewinne",
-      "image": "/strona/zdj/sigewinne.png",
+      "image": "/img/zdj/sigewinne.png",
       "element": "hydro",
       "link": "sigewinne.html"
     },
     {
       "name": "Skirk",
-      "image": "/strona/zdj/skirk.png",
+      "image": "/img/zdj/skirk.png",
       "element": "cryo",
       "link": "skirk.html"
     },
     {
       "name": "Sucrose",
-      "image": "/strona/zdj/sucrose.png",
+      "image": "/img/zdj/sucrose.png",
       "element": "anemo",
       "link": "sucrose.html"
     },
     {
       "name": "Tartaglia",
-      "image": "/strona/zdj/tartaglia.png",
+      "image": "/img/zdj/tartaglia.png",
       "element": "hydro",
       "link": "tartaglia.html"
     },
     {
       "name": "Thoma",
-      "image": "/strona/zdj/thoma.png",
+      "image": "/img/zdj/thoma.png",
       "element": "pyro",
       "link": "thoma.html"
     },
     {
       "name": "Tighnari",
-      "image": "/strona/zdj/tighnari.png",
+      "image": "/img/zdj/tighnari.png",
       "element": "dendro",
       "link": "tighnari.html"
     },
     {
       "name": "Varesa",
-      "image": "/strona/zdj/varesa.png",
+      "image": "/img/zdj/varesa.png",
       "element": "electro",
       "link": "varesa.html"
     },
     {
       "name": "Venti",
-      "image": "/strona/zdj/venti.png",
+      "image": "/img/zdj/venti.png",
       "element": "anemo",
       "link": "venti.html"
     },
     {
       "name": "Wanderer",
-      "image": "/strona/zdj/wanderer.png",
+      "image": "/img/zdj/wanderer.png",
       "element": "anemo",
       "link": "wanderer.html"
     },
     {
       "name": "Wriothesley",
-      "image": "/strona/zdj/wriothesley.png",
+      "image": "/img/zdj/wriothesley.png",
       "element": "cryo",
       "link": "wriothesley.html"
     },
     {
       "name": "Xiangling",
-      "image": "/strona/zdj/xiangling.png",
+      "image": "/img/zdj/xiangling.png",
       "element": "pyro",
       "link": "xiangling.html"
     },
     {
       "name": "Xianyun",
-      "image": "/strona/zdj/xianyun.png",
+      "image": "/img/zdj/xianyun.png",
       "element": "cryo",
       "link": "xianyun.html"
     },
     {
       "name": "Xiao",
-      "image": "/strona/zdj/xiao.png",
+      "image": "/img/zdj/xiao.png",
       "element": "anemo",
       "link": "xiao.html"
     },
     {
       "name": "Xilonen",
-      "image": "/strona/zdj/xilonen.png",
+      "image": "/img/zdj/xilonen.png",
       "element": "geo",
       "link": "xilonen.html"
     },
     {
       "name": "Xingqiu",
-      "image": "/strona/zdj/xingqiu.png",
+      "image": "/img/zdj/xingqiu.png",
       "element": "hydro",
       "link": "xingqiu.html"
     },
     {
       "name": "Xinyan",
-      "image": "/strona/zdj/xinyan.png",
+      "image": "/img/zdj/xinyan.png",
       "element": "pyro",
       "link": "xinyan.html"
     },
     {
       "name": "Yae-miko",
-      "image": "/strona/zdj/yae-miko.png",
+      "image": "/img/zdj/yae-miko.png",
       "element": "electro",
       "link": "yae-miko.html"
     },
     {
       "name": "Yanfei",
-      "image": "/strona/zdj/yanfei.png",
+      "image": "/img/zdj/yanfei.png",
       "element": "pyro",
       "link": "yanfei.html"
     },
     {
       "name": "Yaoyao",
-      "image": "/strona/zdj/yaoyao.png",
+      "image": "/img/zdj/yaoyao.png",
       "element": "dendro",
       "link": "yaoyao.html"
     },
     {
       "name": "Yelan",
-      "image": "/strona/zdj/yelan.png",
+      "image": "/img/zdj/yelan.png",
       "element": "hydro",
       "link": "yelan.html"
     },
     {
       "name": "Yoimiya",
-      "image": "/strona/zdj/yoimiya.png",
+      "image": "/img/zdj/yoimiya.png",
       "element": "pyro",
       "link": "yoimiya.html"
     },
     {
       "name": "Yumemizuki Mizuki",
-      "image": "/strona/zdj/yumemizuki-mizuki.png",
+      "image": "/img/zdj/yumemizuki-mizuki.png",
       "element": "anemo",
       "link": "yumemizuki-mizuki.html"
     },
     {
       "name": "Yun Jin",
-      "image": "/strona/zdj/yun-jin.png",
+      "image": "/img/zdj/yun-jin.png",
       "element": "geo",
       "link": "yun-jin.html"
     },
     {
       "name": "Zhongli",
-      "image": "/strona/zdj/zhongli.png",
+      "image": "/img/zdj/zhongli.png",
       "element": "geo",
       "link": "zhongli.html"
     }
