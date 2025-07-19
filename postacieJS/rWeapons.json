@@ -536,6 +536,38 @@
       "description": "An ancient greatsword forged from Starsilver, capable of cleaving through ice and snow.",
       "link": "Bronie.html#Snow-TombedStarsilver"
     }
+  ],
+   "Mualani": [
+    {
+      "name": "Aqua Simulacra",
+      "image": "/img/bronieZdj/AquaSimulacra.png",
+      "description": "A bow imbued with the memory of ocean tides, its arrows crash down like relentless waves.",
+      "link": "Bronie.html#AquaSimulacra"
+    }
+  ],
+  "Clorinde": [
+    {
+      "name": "Mistsplitter Reforged",
+      "image": "/img/bronieZdj/MistsplitterReforged.png",
+      "description": "Forged from the mist and moonlight, its blade cleaves through illusions as easily as steel through silk.",
+      "link": "Bronie.html#MistsplitterReforged"
+    }
+  ],
+  "Furina": [
+    {
+      "name": "Everlasting Moonglow",
+      "image": "/img/bronieZdj/EverlastingMoonglow.png",
+      "description": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever‑distant.",
+      "link": "Bronie.html#EverlastingMoonglow"
+    }
+  ],
+  "Navia": [
+    {
+      "name": "Primordial Jade Winged‑Spear",
+      "image": "/img/bronieZdj/PrimordialJadeWingedSpear.png",
+      "description": "The wurm descending denotes the bond between sky and earth. This weapon increases CRIT Rate by 2.3% and ATK by 3.2% every 4s a Normal Attack hits. Max 7 stacks.",
+      "link": "Bronie.html#PrimordialJadeWingedSpear"
+    }
   ]
 }
 
