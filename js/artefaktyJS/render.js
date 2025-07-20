@@ -1,4 +1,4 @@
-import { openModal } from '/artefaktyJS/modal.js';
+import { openModal } from '/js/artefaktyJS/modal.js';
 
 /**
  * 

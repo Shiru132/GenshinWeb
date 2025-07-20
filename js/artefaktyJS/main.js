@@ -1,11 +1,11 @@
 // main.js
 
 
-import { getArtifactIds, getArtifactMeta, getLocalArtifacts } from '/artefaktyJS/api.js';
-import { normalize } from '/artefaktyJS/utils.js';
+import { getArtifactIds, getArtifactMeta, getLocalArtifacts } from '/js/artefaktyJS/api.js';
+import { normalize } from '/js/artefaktyJS/utils.js';
 import { renderArtifacts, showError } from '/artefaktyJS/render.js';
 import { initSearch, filterArtifacts } from '/artefaktyJS/search.js';
-import { initModal } from '/artefaktyJS/modal.js';
+import { initModal } from '/js/artefaktyJS/modal.js';
 
 (async function main() {
   try {

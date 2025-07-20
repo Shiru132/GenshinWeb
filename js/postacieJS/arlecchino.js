@@ -34,7 +34,7 @@ console.log('Current character:', currentCharacter);
 // Genshin blue API with weapons data
 // może kiedyś bo na razie nie ma koncepcji
 // ————— Weapons rendering —————
-fetch('/postacieJS/rWeapons.json')
+fetch('/js/postacieJS/rWeapons.json')
   .then(resp => {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     return resp.json();
@@ -88,7 +88,7 @@ function renderWeapons(items) {
 }
 
 // ————— render artifacts for currentCharacter —————
-fetch('/postacieJS/Recartifacts.json')
+fetch('/js/postacieJS/Recartifacts.json')
   .then(resp => {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     return resp.json();
@@ -132,7 +132,7 @@ function renderArtifacts(items) {
 }
 
 // ————— Teams rendering —————
-fetch('/postacieJS/rTeams.json')
+fetch('/js/postacieJS/rTeams.json')
   .then(resp => {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     return resp.json();
@@ -187,7 +187,7 @@ function renderTeams(combos) {
 }
 
 // ————— Talents rendering —————
-fetch('/postacieJS/talents.json')
+fetch('/js/postacieJS/talents.json')
   .then(resp => {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     return resp.json();

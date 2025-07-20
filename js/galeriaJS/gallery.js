@@ -223,7 +223,7 @@ searchInput.addEventListener('input', debounced);
 filter.addEventListener('change', fullFilter);
 
 // --- Inicjalizacja: pobranie i wyrenderowanie postaci ---
-fetch('/galeriaJS/galleryCharacters.json')
+fetch('/js/galeriaJS/galleryCharacters.json')
   .then(res => res.json())
   .then(data => {
     characters = data.characters;

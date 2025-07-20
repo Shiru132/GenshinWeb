@@ -1,5 +1,5 @@
 
-import { debounce } from '/artefaktyJS/utils.js';
+import { debounce } from '/js/artefaktyJS/utils.js';
 
 
 export function initSearch(onFilter) {

@@ -15,6 +15,6 @@ export async function getArtifactMeta(id) {
 }
 
 export async function getLocalArtifacts() {
-  const data = await fetchJson('/artefaktyJS/artifacts.json');
+  const data = await fetchJson('/js/artefaktyJS/artifacts.json');
   return data.artifacts;
 }
