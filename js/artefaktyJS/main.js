@@ -3,8 +3,8 @@
 
 import { getArtifactIds, getArtifactMeta, getLocalArtifacts } from '/js/artefaktyJS/api.js';
 import { normalize } from '/js/artefaktyJS/utils.js';
-import { renderArtifacts, showError } from '/artefaktyJS/render.js';
-import { initSearch, filterArtifacts } from '/artefaktyJS/search.js';
+import { renderArtifacts, showError } from '/js/artefaktyJS/render.js';
+import { initSearch, filterArtifacts } from '/js/artefaktyJS/search.js';
 import { initModal } from '/js/artefaktyJS/modal.js';
 
 (async function main() {
