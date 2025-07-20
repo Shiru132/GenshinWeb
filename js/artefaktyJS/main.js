@@ -63,7 +63,7 @@ import { initModal } from '/js/artefaktyJS/modal.js';
     initModal();
 
   } catch (error) {
-    // bład
+    // error
     console.error('Nie udało się zainicjalizować artefaktów:', error);
     showError('Nie udało się wczytać artefaktów. Spróbuj ponownie później.');
   }

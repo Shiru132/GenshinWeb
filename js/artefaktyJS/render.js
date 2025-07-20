@@ -10,13 +10,13 @@ export function renderArtifacts(list) {
   ul.innerHTML = '';
 
   list.forEach(item => {
-    // Tworzenie elementów dom
+    // create dom elements
     const li    = document.createElement('li');
     const img   = document.createElement('img');
     const title = document.createElement('h3');
     const desc  = document.createElement('p');
 
-    // Ustawienie treści 
+    // dom 
     title.textContent = item.name;
     img.src           = item.image;
     img.alt           = item.name;

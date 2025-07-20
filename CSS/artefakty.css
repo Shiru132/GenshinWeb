@@ -53,7 +53,7 @@ body {
   color: var(--text-light);
   line-height: 1.6;
   overflow-x: hidden;
-  /* Subtelna animacja gradientu w tle */
+  
   background-image: linear-gradient(
     135deg,
     rgb(39, 39, 39)   0%,
@@ -384,7 +384,7 @@ header {
   display: none;
 }
 
-/* 2) Na szerokościach ≤768px: show hamburger, hide desktop-menu */
+/* 2) width ≤768px: show hamburger, hide desktop-menu */
 @media (max-width: 768px) {
   .desktop-menu {
     display: none;
@@ -411,7 +411,7 @@ header {
   }
 }
 
-/* mobilne menu – na starcie schowane po lewej */
+/* mobilne menu  */
 .mobile-menu {
   position: fixed; top: 0; left: 0;
   width: 250px; height: 100vh;
@@ -420,12 +420,12 @@ header {
   background: var(--light-bg);
   z-index: 1000;
 }
-/* otwarte */
+
 .mobile-menu.open {
   transform: translateX(0);
 }
 
-/* półprzezroczyste tło */
+
 .overlay {
   position: fixed; top: 0; left: 0;
   width: 100vw; height: 100vh;

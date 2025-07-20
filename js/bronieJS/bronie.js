@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Fetch, render and then apply any current filters (initially none, so shows all ≥4★)
+    // Fetch, render and then apply any current filters 
     fetchDataFromApi().then(() => {
         applyFilters();
     });

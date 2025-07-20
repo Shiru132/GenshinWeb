@@ -222,12 +222,12 @@ searchInput.addEventListener('input', debounced);
 
 filter.addEventListener('change', fullFilter);
 
-// --- Inicjalizacja: pobranie i wyrenderowanie postaci ---
+// characters data
 fetch('/js/galeriaJS/galleryCharacters.json')
   .then(res => res.json())
   .then(data => {
     characters = data.characters;
-    // posortuj alfabetycznie i wyrenderuj
+    // sorted
     const sorted = [...characters].sort((a, b) => a.name.localeCompare(b.name));
     renderGallery(sorted);
   })
