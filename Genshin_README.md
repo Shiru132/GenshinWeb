@@ -1,16 +1,18 @@
 
-# Genshin Impact Gallery
+# Genshin Impact Guide & Gallery
 
-This project is a **Genshin Impact Character Gallery**. It allows users to browse characters, weapons, and artifacts, with various filtering options for elements (Pyro, Hydro, Anemo, etc.) and a search feature.
+This project serves as a **Genshin Impact Guide & Gallery**. It allows users to browse and learn about **characters**, **weapons**, and **artifacts** from the game. The gallery is interactive, and users can filter characters by their **element type** (Pyro, Hydro, Anemo, etc.).
 
 ## Features
 
-- **Interactive Gallery**: View and filter characters by elements like Pyro, Hydro, Anemo, Electro, etc.
-- **Responsive Design**: The gallery is fully responsive and works on mobile and desktop devices.
-- **Hamburger Menu**: Mobile-friendly navigation with a hamburger menu.
-- **Search and Filter**: Real-time search and filtering by element type (e.g., Pyro, Hydro, etc.).
-- **Hover Effects**: Hover effects on cards for a smooth, interactive experience.
-- **Dark/Light Mode**: Background and theme color adjustments for a clean, modern interface.
+- **Character Gallery**: View detailed character profiles, including names, images, and elemental affiliations.
+- **Weapons**: Explore the vast array of weapons available in Genshin Impact, each with its unique characteristics.
+- **Artifacts**: Learn about different artifact sets and how they affect characters' performance.
+- **Filter by Element**: Filter characters, weapons, and artifacts by their elemental affiliation.
+- **Search Functionality**: Search for specific characters, weapons, or artifacts by name.
+- **Responsive Design**: Fully responsive design for mobile and desktop users.
+- **Interactive Hover Effects**: Hover over items for smooth animations and additional information.
+- **Hamburger Menu**: A mobile-friendly navigation menu.
 
 ## Technologies Used
 
