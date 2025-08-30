@@ -1,0 +1,414 @@
+/* ==========================
+   Variables (base/fallback)
+   ========================== */
+.character-page {
+  /* core palette */
+  --primary-color: #ff4040;
+  --secondary-color: #ff8000;
+  --dark-bg: #1a0a0a;
+  --light-bg: #4a2a2a;
+  --text-light: #ffffff;
+
+  /* surfaces/effects */
+  --shadow: rgba(255, 50, 50, 0.6);
+  --shadow-soft: rgba(255, 50, 50, 0.2);
+  --glass: rgba(69, 16, 16, 0.8);
+  --glass-border: rgba(255, 50, 50, 0.1);
+  --talent-border: rgba(255, 64, 64, 0.2);
+
+  /* animated backgrounds */
+  --bg1: rgba(0, 0, 0, 1);
+  --bg2: rgba(84, 21, 21, 0.9);
+  --bg3: rgba(128, 0, 0, 0.7);
+
+  /* header gradient */
+  --hdr1: rgba(120, 24, 24, 0.6);
+  --hdr2: rgba(163, 23, 23, 0.7);
+  --hdr3: rgba(208, 18, 18, 0.7);
+
+  /* misc */
+  --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  background: var(--dark-bg);
+  background-image: linear-gradient(
+    135deg,
+    var(--bg1) 0%,
+    var(--bg2) 30%,
+    var(--bg3) 50%,
+    var(--bg2) 70%,
+    var(--bg1) 100%
+  );
+  background-size: 200% 200%;
+  animation: pyroBackground 10s ease infinite;
+  color: var(--text-light);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ==========================
+   Reset & Base Styles
+   ========================== */
+.character-page * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* ==========================
+   Keyframe Animations
+   ========================== */
+@keyframes pyroBackground {
+  0%, 100% { background-position: 0% 0%; }
+  50%      { background-position: 100% 100%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-10px); }
+}
+
+/* ==========================
+   Layout & Structure
+   ========================== */
+.character-page header {
+  background: linear-gradient(
+    52deg,
+    var(--hdr1) 0%,
+    var(--hdr2) 25%,
+    var(--hdr3) 50%,
+    var(--hdr2) 75%,
+    var(--hdr1) 100%
+  );
+  box-shadow: 0 0 15px var(--shadow);
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: var(--transition);
+}
+
+.character-page .glass-effect {
+  backdrop-filter: blur(10px);
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.character-page .nav-container {
+  position: relative;
+  justify-content: flex-start;
+}
+
+/* ────────────────────────────────────────────
+   nav-links
+   ──────────────────────────────────────────── */
+.character-page .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 5.5rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.character-page .nav-link {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  transition: var(--transition);
+}
+.character-page .nav-link:hover,
+.character-page .nav-link:focus {
+  color: var(--primary-color);
+}
+.character-page .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
+}
+.character-page .nav-link:hover::after,
+.character-page .nav-link:focus::after {
+  width: 100%;
+}
+.character-page .logo { left: 0; }
+
+.character-page .main-content {
+  margin: 100px auto 0;
+  max-width: 1400px;
+  padding: 2rem;
+}
+
+.character-page a,
+.character-page a img {
+  user-select: none;
+  caret-color: transparent;
+}
+
+.character-page .grid-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem;
+}
+.character-page .grid-container h2 { text-align: center; }
+
+.character-page #builds.grid-container { grid-template-columns: repeat(2, 1fr); }
+.character-page #teams.grid-container  { grid-template-columns: 1fr; margin-top: 2rem; }
+
+/* ==========================
+   Cards & Components
+   ========================== */
+.character-page .artifact-grid img{
+  min-width: 6rem;
+  min-height: 6rem;
+  width: 100%;
+  justify-content: center;
+}
+.character-page .artifact-grid li{ margin: 2rem; }
+
+.character-page .card-weapons,
+.character-page .card-artifacts,
+.character-page .card-teams,
+.character-page .card-talents {
+  background: var(--light-bg);
+  border-radius: 15px;
+  padding: 1.5rem;
+  transition: var(--transition);
+}
+.character-page .card-teams h3 { margin-bottom: 1rem; }
+
+.character-page .card-weapons:hover,
+.character-page .card-artifacts:hover,
+.character-page .card-teams:hover,
+.character-page .card-talents:hover {
+  box-shadow: 0 10px 20px var(--shadow-soft);
+  transform: translateY(-5px);
+}
+
+.character-page .character-image {
+  animation: float 3s ease-in-out infinite;
+  display: block;
+  filter: drop-shadow(0 0 20px var(--shadow-soft));
+  margin: 1.5rem auto;
+  max-width: 850px;
+  width: 100%;
+}
+
+.character-page .team-list {
+  display: grid;
+  list-style: none;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.character-page #weapons-title{ padding-bottom: 1rem; }
+.character-page #artifacts-title{ padding-bottom: 1rem; }
+
+.character-page .artifact-grid h3 { list-style: none; }
+
+.character-page .weapon-list,
+.character-page .talents,
+.character-page .passive { list-style: none; }
+
+.character-page .card-talents h2{ text-align: center; }
+
+.character-page .weapon-list li,
+.character-page .artifact-grid li {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.character-page .weapon-list img,
+.character-page .artifact-grid img {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.character-page .weapon-list h4 { margin: 0; }
+.character-page .weapon-list p { margin-top: 0.5rem; }
+
+.character-page .team-list li {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.character-page .team-list img {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  height: 130px;
+  object-fit: contain;
+  transition: var(--transition);
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.character-page .team-list img:hover {
+  box-shadow: 0 0 15px var(--primary-color);
+  transform: scale(1.1);
+}
+.character-page #teams-section-title { text-align: center; }
+
+.character-page .talents,
+.character-page .passive {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  padding: 1rem;
+}
+
+.character-page .talents li,
+.character-page .passive li {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--talent-border);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.character-page .talents li:hover,
+.character-page .passive li:hover {
+  box-shadow: 0 5px 15px var(--shadow-soft);
+  transform: translateY(-3px);
+}
+.character-page .talents img,
+.character-page .passive img {
+  height: 60px;
+  margin-bottom: 0.5rem;
+  width: 60px;
+}
+.character-page .talents p,
+.character-page .passive p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 200px;
+}
+
+/* ==========================
+   Responsive Styles
+   ========================== */
+@media (max-width: 768px) {
+  .character-page .grid-container { padding: 1rem; }
+
+  .character-page .weapon-list,
+  .character-page .artifact-grid,
+  .character-page .team-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .character-page .weapon-list li,
+  .character-page .artifact-grid li { flex-direction: column; }
+
+  .character-page .team-list {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .character-page #builds.grid-container { grid-template-columns: 1fr !important; }
+}
+
+/* ----------------------------------
+   Mobile menu / hamburger visibility
+   ---------------------------------- */
+.character-page .mobile-menu,
+.character-page .menu-overlay,
+.character-page .hamburger { display: none; }
+
+@media (max-width: 768px) {
+  .character-page .desktop-menu { display: none; }
+  .character-page .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.character-page .mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  background: var(--dark-bg);
+  padding: 1rem 0;
+  display: none;
+  z-index: 999;
+}
+.character-page .menu-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 998;
+}
+.character-page .mobile-menu.open,
+.character-page .menu-overlay.open { display: flex; }
+
+@media (min-width: 769px) {
+  .character-page .mobile-menu,
+  .character-page .menu-overlay,
+  .character-page .hamburger { display: none !important; }
+  .character-page .desktop-menu {
+    display: flex !important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+}
+
+/* Scroll To Top */
+.character-page .scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--secondary-color);
+  color: var(--dark-bg);
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.character-page .scroll-to-top.show {
+  opacity: 1;
+  z-index: 1001;
+  pointer-events: auto;
+}
+
+.character-page.theme-pyro  { --primary-color:#ff4040; --secondary-color:#ff8000; --dark-bg:#1a0a0a; --light-bg:#4a2a2a; --shadow:rgba(255,50,50,.6); --shadow-soft:rgba(255,50,50,.2); --glass:rgba(69,16,16,.8); --glass-border:rgba(255,50,50,.1); --talent-border:rgba(255,64,64,.2); --bg1:rgba(0,0,0,1); --bg2:rgba(84,21,21,.9); --bg3:rgba(128,0,0,.7); --hdr1:rgba(120,24,24,.6); --hdr2:rgba(163,23,23,.7); --hdr3:rgba(208,18,18,.7); }
+.character-page.theme-hydro { --primary-color:#4daaf9; --secondary-color:#78c7ff; --dark-bg:#001f3f; --light-bg:#003366; --shadow:rgba(0,200,230,.6); --shadow-soft:rgba(0,200,230,.2); --glass:rgba(16,37,75,.8); --glass-border:rgba(0,200,230,.1); --talent-border:rgba(0,200,230,.2); --bg1:rgba(0,31,63,1); --bg2:rgba(0,71,159,.9); --bg3:rgba(0,120,230,.7); --hdr1:rgba(16,37,75,.6); --hdr2:rgba(24,58,115,.7); --hdr3:rgba(35,85,179,.7); }
+.character-page.theme-geo   { --primary-color:#d4af37; --secondary-color:#b8860b; --dark-bg:#1a170a; --light-bg:#755b2f; --shadow:rgba(204,196,116,.6); --shadow-soft:rgba(204,196,116,.2); --glass:rgba(155,131,35,.8); --glass-border:rgba(204,196,116,.1); --talent-border:rgba(204,196,116,.2); --bg1:rgba(60,59,42,1); --bg2:rgba(107,103,42,.9); --bg3:rgba(204,196,116,.7); --hdr1:rgba(155,131,35,.6); --hdr2:rgba(183,157,56,.7); --hdr3:rgba(204,196,116,.7); }
+.character-page.theme-cryo  { --primary-color:#c0dfff; --secondary-color:#8abfff; --dark-bg:#355f80; --light-bg:#5971ae; --shadow:rgba(192,223,255,.5); --shadow-soft:rgba(192,223,255,.2); --glass:rgba(56,106,137,.6); --glass-border:rgba(192,223,255,.3); --talent-border:rgba(90,170,255,.2); --bg1:rgba(2,18,54,1); --bg2:rgba(90,170,255,.9); --bg3:rgba(160,230,255,.7); --hdr1:rgba(42,60,95,.6); --hdr2:rgba(74,92,138,.7); --hdr3:rgba(138,191,255,.7); }
+.character-page.theme-dendro{ --primary-color:#88C057; --secondary-color:#B7E28F; --dark-bg:#112D13; --light-bg:#244C26; --shadow:rgba(136,192,87,.6); --shadow-soft:rgba(136,192,87,.25); --glass:rgba(34,74,47,.8); --glass-border:rgba(136,192,87,.1); --talent-border:rgba(136,192,87,.2); --bg1:rgba(17,45,19,1); --bg2:rgba(36,76,38,.9); --bg3:rgba(136,192,87,.7); --hdr1:rgba(34,74,47,.6); --hdr2:rgba(52,104,63,.7); --hdr3:rgba(136,192,87,.7); }
+.character-page.theme-electro{--primary-color:#9381ff; --secondary-color:#c4b5fd; --dark-bg:#120136; --light-bg:#240046; --shadow:rgba(147,129,255,.6); --shadow-soft:rgba(147,129,255,.25); --glass:rgba(50,0,100,.8); --glass-border:rgba(147,129,255,.1); --talent-border:rgba(147,129,255,.2); --bg1:rgba(18,1,54,1); --bg2:rgba(36,0,70,.9); --bg3:rgba(147,129,255,.7); --hdr1:rgba(50,0,100,.6); --hdr2:rgba(75,0,150,.7); --hdr3:rgba(147,129,255,.7); }
+.character-page.theme-anemo { --primary-color:#7FFFD4; --secondary-color:#C4FFD9; --dark-bg:#102c1a; --light-bg:#204e32; --shadow:rgba(127,253,212,.6); --shadow-soft:rgba(127,253,212,.25); --glass:rgba(46,115,66,.8); --glass-border:rgba(127,253,212,.1); --talent-border:rgba(127,253,212,.2); --bg1:rgba(16,44,26,1); --bg2:rgba(32,78,50,.9); --bg3:rgba(47,125,80,.7); --hdr1:rgba(46,115,66,.6); --hdr2:rgba(67,160,92,.7); --hdr3:rgba(113,210,132,.7); }
