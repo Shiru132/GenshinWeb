@@ -94,7 +94,7 @@ const ELEMENT_BY_SLUG = {
   'yumemizuki-mizuki': 'anemo',
   'yun-jin': 'geo',
   'zhongli': 'geo',
-  // alias (często używany krótki slug)
+  
   'shogun': 'electro',
 }
 
@@ -192,7 +192,7 @@ const NAME_BY_SLUG = {
   'yumemizuki-mizuki': 'Yumemizuki Mizuki',
   'yun-jin': 'Yun Jin',
   'zhongli': 'Zhongli',
-  // alias
+ 
   'shogun': 'Raiden Shogun',
 }
 
