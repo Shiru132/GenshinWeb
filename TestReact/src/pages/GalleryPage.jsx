@@ -4,7 +4,7 @@ import Hamburger from '../components/Hamburger.jsx'
 import ScrollToTopButton from '../components/scrollToUp.jsx'
 import { useDebounce } from '../hooks/useDebounce.js'
 import { Link, useLocation } from 'react-router-dom'
-import '../gallery.css' // ważne: tylko tutaj
+import '../gallery.css' 
 
 export default function GalleryPage() {
   const [characters, setCharacters] = useState([])
@@ -28,7 +28,7 @@ export default function GalleryPage() {
       .catch(err => console.error('Błąd wczytywania postaci:', err))
   }, [])
 
-  // scroll button
+
   useEffect(() => {
     const onScroll = () => setShowToTop(window.pageYOffset > 300)
     window.addEventListener('scroll', onScroll)
@@ -36,13 +36,13 @@ export default function GalleryPage() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // lock body scroll on mobile menu
+  
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
   }, [mobileOpen])
 
-  // ESC zamyka mobile menu (tylko gdy otwarte)
+  
   useEffect(() => {
     if (!mobileOpen) return
     const onKey = e => { if (e.key === 'Escape') setMobileOpen(false) }
@@ -50,7 +50,7 @@ export default function GalleryPage() {
     return () => document.removeEventListener('keydown', onKey)
   }, [mobileOpen])
 
-  // focus management
+  
   useEffect(() => {
     if (mobileOpen) {
       firstMobileLinkRef.current?.focus()
@@ -59,7 +59,7 @@ export default function GalleryPage() {
     }
   }, [mobileOpen])
 
-  // zamknij mobile menu po zmianie trasy
+ 
   useEffect(() => {
     setMobileOpen(false)
   }, [location.pathname])
