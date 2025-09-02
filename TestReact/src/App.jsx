@@ -3,7 +3,7 @@ import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { DataProvider } from './providers/DataContext.jsx'
 import CharacterPage from './pages/CharacterPage.jsx'
-import GalleryPage from './pages/GalleryPage.jsx' // ← DODANE
+import GalleryPage from './pages/GalleryPage.jsx' 
 
 export default function App() {
   return (
