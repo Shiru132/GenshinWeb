@@ -14,7 +14,7 @@ function extractThemeColor(imgEl) {
   }
 }
 
-// bezpieczna zamiana "characters/bennett.html" -> "/characters/bennett"
+//  "characters/bennett.html" -> "/characters/bennett"
 function linkToPath(link = '') {
   return '/' + String(link).replace(/^(\.\/)?/, '').replace(/\.html?$/i, '')
 }
@@ -24,7 +24,7 @@ export default function CharacterCard({ char, index }) {
   const imgRef = useRef(null)
   const [show, setShow] = useState(false)
 
-  // ustaw kolor motywu po załadowaniu obrazka (także z cache)
+  // theme color
   useEffect(() => {
     const img = imgRef.current
     if (!img) return
@@ -38,7 +38,7 @@ export default function CharacterCard({ char, index }) {
 
     const onLoad = () => applyTheme()
     const onError = () => {
-      // fallback: wyczyść kolor, dodaj klasę błędu jeśli chcesz w CSS
+      /
       if (liRef.current) liRef.current.style.removeProperty('--theme-color')
       img.classList.add('img-error')
     }
@@ -46,7 +46,7 @@ export default function CharacterCard({ char, index }) {
     img.addEventListener('load', onLoad)
     img.addEventListener('error', onError)
 
-    // jeśli obraz już w cache i complete — nałóż od razu
+    
     if (img.complete && img.naturalWidth > 0) applyTheme()
 
     return () => {
@@ -55,10 +55,10 @@ export default function CharacterCard({ char, index }) {
     }
   }, [char.image])
 
-  // prosty reveal; jak chcesz animację, zmień delay
+
   useEffect(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const delay = prefersReduced ? 0 : 0 // ustaw np. 150 dla animacji
+    const delay = prefersReduced ? 0 : 0 // 
     const id = setTimeout(() => setShow(true), delay)
     return () => clearTimeout(id)
   }, [index])
