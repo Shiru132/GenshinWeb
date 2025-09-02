@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 
 export default function TeamsSection({ teamsData, slug, name, element }) {
   if (!teamsData) return null
-  // teamsData w nowym formacie: { characters: [ { slug, teams: [...] }, ... ] }
+
 const entry = teamsData.characters.find(c => c.slug === slug || c.name === name)
 const groups = entry ? entry.teams : []
 
 
-  // proste slugowanie (gdy mamy tylko name)
+ 
   const slugify = (s = '') =>
     s
       .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -17,23 +17,23 @@ const groups = entry ? entry.teams : []
       .trim()
       .replace(/\s+/g, '-')
 
-  // zamiana dowolnego starego linku (np. .../characters/shogun.html) -> /characters/shogun
+ (np. .../characters/shogun.html) -> /characters/shogun
   const toCharactersPath = (input, fallbackName) => {
     const src = String(input || '').trim()
 
-    // jeśli już jest /characters/..., oczyść z .html, query, hash
+ 
     const match = src.match(/\/characters\/([^/?#]+)/i)
     if (match) {
       const last = match[1].replace(/\.html?$/i, '')
       return `/characters/${last}`
     }
 
-    // jeśli przychodzi gotowy slug w danych
+ 
     if (typeof input === 'string' && input && !input.includes('/')) {
       return `/characters/${input.replace(/\.html?$/i, '')}`
     }
 
-    // fallback: z nazwy
+
     const s = slugify(fallbackName)
     return s ? `/characters/${s}` : '/characters/arlecchino'
   }
