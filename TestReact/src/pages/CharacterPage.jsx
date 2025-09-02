@@ -9,7 +9,7 @@ import TeamsSection from '../components/TeamsSection.jsx'
 import TalentsSection from '../components/TalentsSection.jsx'
 import Hamburger from '../components/Hamburger.jsx'
 import ScrollToTopButton from '../components/scrollToUp.jsx'
-import '../pyro.css' // ← ważne: import lokalny, nie absolutny
+import '../pyro.css' 
 
 export default function CharacterPage() {
   const { slug } = useParams()
