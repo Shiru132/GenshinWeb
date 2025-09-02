@@ -1,5 +1,5 @@
 /* ==========================
-   Variables (base/fallback)
+   Characters
    ========================== */
 .character-page {
   /* core palette */
@@ -9,24 +9,24 @@
   --light-bg: #4a2a2a;
   --text-light: #ffffff;
 
-  /* surfaces/effects */
+  
   --shadow: rgba(255, 50, 50, 0.6);
   --shadow-soft: rgba(255, 50, 50, 0.2);
   --glass: rgba(69, 16, 16, 0.8);
   --glass-border: rgba(255, 50, 50, 0.1);
   --talent-border: rgba(255, 64, 64, 0.2);
 
-  /* animated backgrounds */
+  
   --bg1: rgba(0, 0, 0, 1);
   --bg2: rgba(84, 21, 21, 0.9);
   --bg3: rgba(128, 0, 0, 0.7);
 
-  /* header gradient */
+ 
   --hdr1: rgba(120, 24, 24, 0.6);
   --hdr2: rgba(163, 23, 23, 0.7);
   --hdr3: rgba(208, 18, 18, 0.7);
 
-  /* misc */
+ 
   --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
   background: var(--dark-bg);
@@ -47,7 +47,7 @@
 }
 
 /* ==========================
-   Reset & Base Styles
+   reset
    ========================== */
 .character-page * {
   margin: 0;
@@ -56,9 +56,7 @@
   text-decoration: none;
 }
 
-/* ==========================
-   Keyframe Animations
-   ========================== */
+
 @keyframes pyroBackground {
   0%, 100% { background-position: 0% 0%; }
   50%      { background-position: 100% 100%; }
@@ -69,9 +67,7 @@
   50%      { transform: translateY(-10px); }
 }
 
-/* ==========================
-   Layout & Structure
-   ========================== */
+
 .character-page header {
   background: linear-gradient(
     52deg,
@@ -296,9 +292,7 @@
   max-width: 200px;
 }
 
-/* ==========================
-   Responsive Styles
-   ========================== */
+// re
 @media (max-width: 768px) {
   .character-page .grid-container { padding: 1rem; }
 
@@ -321,9 +315,7 @@
   .character-page #builds.grid-container { grid-template-columns: 1fr !important; }
 }
 
-/* ----------------------------------
-   Mobile menu / hamburger visibility
-   ---------------------------------- */
+// Mobile menu / hamb
 .character-page .mobile-menu,
 .character-page .menu-overlay,
 .character-page .hamburger { display: none; }
@@ -378,7 +370,7 @@
   }
 }
 
-/* Scroll To Top */
+/* Scroll to top */
 .character-page .scroll-to-top {
   position: fixed;
   bottom: 2rem;
@@ -404,7 +396,7 @@
   z-index: 1001;
   pointer-events: auto;
 }
-
+// theme for different class
 .character-page.theme-pyro  { --primary-color:#ff4040; --secondary-color:#ff8000; --dark-bg:#1a0a0a; --light-bg:#4a2a2a; --shadow:rgba(255,50,50,.6); --shadow-soft:rgba(255,50,50,.2); --glass:rgba(69,16,16,.8); --glass-border:rgba(255,50,50,.1); --talent-border:rgba(255,64,64,.2); --bg1:rgba(0,0,0,1); --bg2:rgba(84,21,21,.9); --bg3:rgba(128,0,0,.7); --hdr1:rgba(120,24,24,.6); --hdr2:rgba(163,23,23,.7); --hdr3:rgba(208,18,18,.7); }
 .character-page.theme-hydro { --primary-color:#4daaf9; --secondary-color:#78c7ff; --dark-bg:#001f3f; --light-bg:#003366; --shadow:rgba(0,200,230,.6); --shadow-soft:rgba(0,200,230,.2); --glass:rgba(16,37,75,.8); --glass-border:rgba(0,200,230,.1); --talent-border:rgba(0,200,230,.2); --bg1:rgba(0,31,63,1); --bg2:rgba(0,71,159,.9); --bg3:rgba(0,120,230,.7); --hdr1:rgba(16,37,75,.6); --hdr2:rgba(24,58,115,.7); --hdr3:rgba(35,85,179,.7); }
 .character-page.theme-geo   { --primary-color:#d4af37; --secondary-color:#b8860b; --dark-bg:#1a170a; --light-bg:#755b2f; --shadow:rgba(204,196,116,.6); --shadow-soft:rgba(204,196,116,.2); --glass:rgba(155,131,35,.8); --glass-border:rgba(204,196,116,.1); --talent-border:rgba(204,196,116,.2); --bg1:rgba(60,59,42,1); --bg2:rgba(107,103,42,.9); --bg3:rgba(204,196,116,.7); --hdr1:rgba(155,131,35,.6); --hdr2:rgba(183,157,56,.7); --hdr3:rgba(204,196,116,.7); }
