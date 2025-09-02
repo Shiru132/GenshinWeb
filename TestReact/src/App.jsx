@@ -9,13 +9,13 @@ export default function App() {
   return (
     <DataProvider>
       <Routes>
-        {/* start aplikacji – jeśli wolisz listę: */}
+     
         <Route path="/" element={<Navigate to="/gallery" replace />} />
-        {/* lista postaci */}
+        {/* list */}
         <Route path="/gallery" element={<GalleryPage />} />
-        {/* pojedyncza postać */}
+        {/* single char */}
         <Route path="/characters/:slug" element={<CharacterPage />} />
-        {/* stare .html → przekierowania, opcjonalnie */}
+        {/* character page without .html */}
         <Route path="/gallery.html" element={<Navigate to="/gallery" replace />} />
         <Route path="/weapons.html" element={<Navigate to="/weapons" replace />} />
         <Route path="/artifacts.html" element={<Navigate to="/artifacts" replace />} />
